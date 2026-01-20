@@ -1,0 +1,114 @@
+.TEXT {
+	FONT-SIZE: 90%; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.TEXTWIDE {
+	FONT-SIZE: 90%; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.medium1 {
+	FONT-SIZE: 75%; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.medium2 {
+	FONT-SIZE: 75%; FONT-FAMILY: verdana,helvetica,sans-serif
+}
+.medium3 {
+	FONT-SIZE: 75%; FONT-FAMILY: courier
+}
+.GUTTER1 {
+	FONT-SIZE: 85%; COLOR: #ffcc66; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.GUTTER2 {
+	FONT-SIZE: 75%; COLOR: #ccccff; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.GUTTER3 {
+	FONT-SIZE: 75%; COLOR: #ffffff; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A {
+	link: #0033CC
+}
+A.BAR {
+	FONT-SIZE: 85%; COLOR: #ffffff; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.HELPBAR {
+	FONT-SIZE: 75%; COLOR: #000000; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.GUTTER {
+	FONT-SIZE: 85%; COLOR: #ffffff; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.GUTTER1 {
+	FONT-SIZE: 85%; COLOR: #ffcc66; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.GUTTER2 {
+	FONT-SIZE: 75%; COLOR: #ccccff; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.GUTTER3 {
+	FONT-SIZE: 75%; COLOR: #ffffff; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.BUTTON {
+	FONT-SIZE: 75%; COLOR: #000000; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 125%; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 125%; FONT-FAMILY: arial,helvetica,sans-serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 125%; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 125%; FONT-FAMILY: arial,helvetica,sans-serif
+}
+H3 {
+	FONT-FAMILY: arial,helvetica,sans-serif
+}
+.H3 {
+	FONT-FAMILY: arial,helvetica,sans-serif
+}
+H4 {
+	FONT-FAMILY: arial,helvetica,sans-serif
+}
+.H4 {
+	FONT-FAMILY: arial,helvetica,sans-serif
+}
+H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 85%; FONT-STYLE: italic; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 85%; FONT-STYLE: italic; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.pmlinka {
+	FONT-WEIGHT: bold; FONT-SIZE: 85%; VERTICAL-ALIGN: baseline; COLOR: #336699; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.pmlinkna {
+	FONT-SIZE: 85%; VERTICAL-ALIGN: baseline; COLOR: #336699; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.taba {
+	BACKGROUND: #ffffff; VERTICAL-ALIGN: baseline; TEXT-ALIGN: center
+}
+.tabna {
+	BACKGROUND: #cccccc; VERTICAL-ALIGN: baseline; TEXT-ALIGN: center
+}
+A.dblinks:link {
+	FONT-SIZE: 75%; COLOR: #336699; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.dblinks:visited {
+	FONT-SIZE: 75%; COLOR: #cc3300; FONT-FAMILY: arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.popmenu:link {
+	FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Verdana, Arial, Sans-serif; TEXT-DECORATION: none
+}
+A.popmenu:visited {
+	FONT-SIZE: 11px; COLOR: #6c7f9a; FONT-FAMILY: Verdana, Arial, Sans-serif; TEXT-DECORATION: none
+}
+A.popmenu:active {
+	FONT-SIZE: 11px; COLOR: #001a4f; FONT-FAMILY: Verdana, Arial, Sans-serif; TEXT-DECORATION: none
+}
+A.popmenu:hover {
+	FONT-SIZE: 11px; COLOR: #038000; FONT-FAMILY: Verdana, Arial, Sans-serif; TEXT-DECORATION: underline
+}
+.menutitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Sans-serif
+}
+.fixedsize_skobka {
+	FONT-SIZE: 10px; COLOR: #000084; FONT-FAMILY: Arial,sans-serif
+}

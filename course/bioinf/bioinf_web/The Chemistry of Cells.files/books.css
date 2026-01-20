@@ -1,0 +1,156 @@
+.toolbar-link {
+	FONT-SIZE: small; COLOR: #003333; TEXT-DECORATION: underline
+}
+.toolbar-nolink {
+	FONT-SIZE: small; COLOR: #003333
+}
+.text-ref {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.sidebar-ref {
+	FONT-SIZE: small; COLOR: #000000; TEXT-DECORATION: underline
+}
+.sidebar-header {
+	FONT-SIZE: 70%; BACKGROUND: #a6bd9b; COLOR: #ffffff; LINE-HEIGHT: 100%
+}
+.sidebar-table {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BACKGROUND: #fdf5e6; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.toc-sidebar-text {
+	COLOR: #000000
+}
+.toc-sidebar-passive-0 {
+	FONT-WEIGHT: bold; FONT-SIZE: small; COLOR: #000000; FONT-STYLE: italic
+}
+.toc-sidebar-active-0 {
+	FONT-WEIGHT: bold; FONT-SIZE: small; BACKGROUND: #d6dcc7; COLOR: #000000; FONT-STYLE: italic
+}
+.toc-sidebar-passive-1 {
+	FONT-WEIGHT: bold; FONT-SIZE: small; COLOR: #000000
+}
+.toc-sidebar-active-1 {
+	FONT-WEIGHT: bold; FONT-SIZE: small; BACKGROUND: #d6dcc7; COLOR: black
+}
+.toc-sidebar-passive-2 {
+	FONT-SIZE: small; COLOR: #000000
+}
+.toc-sidebar-active-2 {
+	FONT-SIZE: small; BACKGROUND: #d6dcc7; COLOR: black
+}
+.toc-sidebar-passive-3 {
+	FONT-SIZE: small; COLOR: #000000
+}
+.toc-sidebar-active-3 {
+	FONT-SIZE: small; BACKGROUND: #d6dcc7; COLOR: black
+}
+.toc-sidebar-passive-4 {
+	FONT-SIZE: small; COLOR: #000000
+}
+.toc-sidebar-active-4 {
+	FONT-SIZE: small; BACKGROUND: #d6dcc7; COLOR: black
+}
+.toc-sidebar-passive-5 {
+	FONT-SIZE: small; COLOR: #000000
+}
+.toc-sidebar-active-5 {
+	FONT-SIZE: small; BACKGROUND: #d6dcc7; COLOR: black
+}
+.toc-text {
+	FONT-SIZE: small; MARGIN-LEFT: 2em; COLOR: #000000
+}
+.toc-passive {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.titlegrp-header {
+	FONT-SIZE: 130%; COLOR: #000000
+}
+.chapter-header {
+	FONT-SIZE: 130%; COLOR: #000000
+}
+.part-header {
+	FONT-SIZE: 130%; COLOR: #000000
+}
+.section-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 140%; COLOR: #003300
+}
+.reviewers-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 140%; COLOR: #003300
+}
+.preface-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 140%; COLOR: #003300
+}
+.foreword-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 140%; COLOR: #003300
+}
+.appendix-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 140%; COLOR: #003300
+}
+.ack-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 140%; COLOR: #003300
+}
+.box-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 140%; COLOR: #003300
+}
+.abstract-header {
+	FONT-WEIGHT: bold; COLOR: #000000
+}
+.caption-header {
+	FONT-WEIGHT: bold; COLOR: #003333
+}
+.figgrp-header {
+	FONT-WEIGHT: bold; COLOR: #003333
+}
+.table-header {
+	FONT-WEIGHT: bold; COLOR: #003333
+}
+.subsect1-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 115%; COLOR: #a95444
+}
+.biblist-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 115%; COLOR: #a95444
+}
+.table-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 115%; COLOR: #a95444
+}
+.subsect2-header {
+	FONT-SIZE: 95%; COLOR: #a95444; FONT-STYLE: italic
+}
+.subsect3-header {
+	FONT-SIZE: 75%; COLOR: #a95444
+}
+.item-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 95%; COLOR: #003333
+}
+.message {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 85%; BACKGROUND: #d6ceb5; BORDER-LEFT: black 1px solid; COLOR: #000000; BORDER-BOTTOM: black 1px solid
+}
+.bq-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 85%; COLOR: #003333
+}
+.bibsect-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 85%; COLOR: #003333
+}
+.question-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 95%; COLOR: #000000
+}
+.answer-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 95%; COLOR: #000000
+}
+.glossary-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #000000
+}
+.glossdiv-header {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #000000
+}
+.bb-header {
+	COLOR: #000000
+}
+.footnote {
+	FONT-SIZE: small
+}
+.table-foot {
+	FONT-SIZE: small
+}
+.small_caps {
+	FONT-VARIANT: small-caps
+}
