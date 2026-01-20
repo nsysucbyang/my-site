@@ -1,0 +1,373 @@
+\documentstyle[12pt,psfig]{article}
+%\documentstyle[12pt,twocolumn,psfig]{article}
+\parindent=32truept
+\topmargin=-1.2in
+\oddsidemargin=0.0truein
+\evensidemargin=0.0truein
+%default:(5.8, 8.7in)
+\textwidth=6.3truein
+\textheight=10.in
+\begin{document}
+\pssilent
+\psdraft
+%\pagenumbering{roman}
+
+\normalsize
+
+\pagestyle{plain}
+%\pagestyle{empty}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\baselineskip=18pt
+\parskip=12pt
+
+\begin{center}
+{\LARGE\bf National Collegiate Programming Contest 1996 (Taiwan)}
+\end{center}
+
+\begin{center}
+{\Large\bf Problem A: Area of an Object}
+\end{center}
+
+\bigskip\noindent{\bf The Problem}
+
+Assume that there is an object in a digital picture whose boundary is
+specified by a sequence of moves.
+A move can only be in the $8$ directions to its neighbours.
+The $8$ directions are defined as follows.
+\begin{verbatim}
+3 2 1
+4 . 0
+5 6 7
+\end{verbatim}
+A sequence of moves represented by the numbers 0, 1, 2, 3, 4, 5, 6, 7 are
+called a {\it chain code}.
+Assume that the object has no holes in it.
+An object in a digital picture can then be specified by a starting
+point, followed a chain code.
+For example, with starting point $(1,5)$, the object shown at the left
+of the following figure can be represented by a string at the right.
+\begin{verbatim}
+0000X0000000X
+000XXXXX0000X
+XXXXXXXXXXXX0                1,5 554400070071721012654443443
+0000XXXXXX000
+0000000X0X000
+\end{verbatim}
+Write a program to calculate the area of the object in a picture
+by counting how many {\tt X}'s are covered by the object.
+
+\bigskip\noindent{\bf The Input}
+
+Each object in the picture is represented by a starting point and
+followed by a chain code.
+The chain code may be more than 80 characters.
+
+\bigskip\noindent {\bf The Output}
+
+If the chain code is a sequence of moves from the starting point back to
+the same point, then print out the area of the object represented by
+the chain code, otherwise, print the error message ``Illegal chain code.''
+
+\bigskip\noindent {\bf Sample Input}
+\begin{verbatim}
+1,40 5445456667770100110700071113334432544353*
+1,24 5676003124*
+\end{verbatim}
+
+\bigskip\noindent {\bf Sample Output}
+\begin{verbatim}
+object 1: the area is 123
+object 2: Illegal chain code.
+\end{verbatim}
+\vspace{1cm }
+
+\begin{center}
+{\Large\bf Problem B: Binary String Combination}
+\end{center}
+
+\bigskip\noindent{\bf The Problem}
+
+Consider {\it n-bit} binary string with exact $k$ 1's.
+Obviously, there are $n\choose k$ binary strings with this property.
+For example, the list of 5-bit binary strings with two 1's is as follows:
+\begin {center}
+00011, 00101, 00110, 01001, 01010, 01100, 10001, 10010, 10100, 11000
+\end{center}
+There are totally ${5\choose 2}=10$ binary strings in the above example.
+The above strings are arranged in ascending order by their values.
+In our example, 00011 is the first string since it is the smallest,
+00101 is the second string since it is bigger than 00011 and smaller than
+any others.
+Finally, 11000 is the tenth string since it is the largest.
+
+Given $n$, $k$, and $m$, write a program to generate the $m$-th
+$n$-bit binary string with exact $k$ 1's.
+
+\bigskip\noindent{\bf The Input}
+
+The input file may contain many instances.
+Each instance consists of three numbers, $n$, $k$, and $m$.
+You may assume that $n\le32$.
+
+\bigskip\noindent{\bf The Output}
+
+For each instance, print out the $m$-th $n$-bit binary string with
+exactly $k$ 1's, and its corresponding decimal number.
+
+\bigskip\noindent{\bf Sample Input}
+
+\begin{verbatim}
+7 3 10
+16 8 10001
+32 12 5000000
+\end{verbatim}
+
+\bigskip\noindent{\bf Sample Output}
+
+\begin{verbatim}
+n = 7, k = 3, m = 10
+Decimal number = 28
+Binary string = 0011100
+
+n = 16, k = 8, m = 10001
+Decimal number = 49897
+Binary string = 1100001011101001
+
+n = 32, k = 12, m = 5000000
+Decimal number = 31475149
+Binary string = 00000001111000000100010111001101
+\end{verbatim}
+\vspace{1cm }
+
+\begin{center}
+{\Large\bf Probelm C: Find the Rank}
+\end{center}
+
+\bigskip\noindent{\bf The Problem}
+
+Given two sorted sequences of integers $A=a_1,a_2,\dots,a_m$ and
+$B=b_1,b_2,b_n$.
+Both sequences are sorted in nondecreasing order.
+Let $s=\left\lceil{m \over 2}\right\rceil$ and
+$t=\left\lceil{n \over 2}\right\rceil$.
+Obviously, $x=a_s+b_t$ is one of the $nm$ elements $c_{i,j}=a_i+b_j$, where
+$1 \le i \le m, 1 \le j \le n$.
+Write a program to find the rank of $x$ when all these $nm$
+elements are sorted in nondecreasing order.
+In case that there are more than one element which have the same value
+as $x$, let the rank of $x$ be the first of these
+elements.
+
+\bigskip\noindent{\bf The Input}
+
+The input file may contain more than one instance.
+Each instance consists of two sorted lists.
+The first number in each list is the number of elements in that list.
+This is then followed by the elements of that lists, sorted in
+nondecreasing order.
+You may assume that the maximum number of elements in each list is
+no more than 2000.
+
+\bigskip\noindent{\bf Output}
+
+For each instance, your program must print the numbers $m$ and $n$,
+together with the rank of $a_s+b_t$ in a format as shown in the Sample
+Output.
+
+\bigskip\noindent{\bf Sample Input}
+\begin{verbatim}
+5
+15 20 34 36 71
+4
+18 25 50 100
+8
+100 101 105 151 151 180 200 240
+5
+80 88 100 200 202
+\end{verbatim}
+
+\noindent{\bf Sample Output}
+\begin{verbatim}
+m=5, n=4, rank of 59 is 7
+m=8, n=5, rank of 251 is 14
+\end{verbatim}
+\vspace{1cm }
+
+\begin{center}
+{\Large\bf Problem D: Minimum Connection Cost}
+\end{center}
+
+\bigskip\noindent{\bf The Problem}
+
+Let $V$ be a set of points $v_{1},v_{2},\ldots,v_{n}$ in the plane,
+where $v_{i}=(x_{i},y_{i})$, $1\le i \le n$.
+Assume that all the $x_{i}$'s and the $y_{i}$'s are integers less than
+or equal to $255$.
+Two points $v_i$ and $v_j$ are {\it connected} if either there is a
+line between them, or there is another point $v_k$ such that both the
+pair of points $v_i$ and $v_k$ and the pair of points $v_k$ and $v_j$
+are connected.
+Given a set of points, we want to construct a set of lines to make
+every pair of points connected.
+It is easy to see that $n-1$ lines are necessary and sufficient to
+connect $n$ points.
+Assume that the cost of the line connecting any pair of points $v_{i}$
+and $v_{j}$ is $(x_{i}-x_{j})^2+(y_i-y_j)^2$.
+
+For example, let the set of points be
+$\{(100,100),(20,10),(20,20),(10,20)\}$.
+The four lines $(100,100)$ to $(20,20)$, $(20,10)$ to $(20,20)$, and
+$(20,20)$ to $(10,20)$ connects all pair of the given points.
+The cost of the connection is $12800+100+100=13000$.
+
+Write a program to compute the cost of connecting a given set of
+points.
+
+\bigskip\noindent{\bf The Input}
+
+The input file contain more than one instance.
+Each instance is a set of points in the plan.
+The first number of an instance is $n$, the number of points in the
+plan to be connected.
+This is then followed by $n$ points.
+Each point consists of two numbers, $x$ and $y$.
+
+\bigskip\noindent{\bf The Output}
+
+For each instance, print the minimum cost to connect the set of
+points.
+Note that you need not print the lines that connect these points.
+
+\bigskip\noindent{\bf Sample Input}
+
+\begin{verbatim}
+2
+0 1
+1 0
+4
+100 100
+20 10
+20 20
+10 20
+\end{verbatim}
+
+\bigskip\noindent{\bf Sample Output}
+\begin{verbatim}
+The minimum connection cost is 2.
+The minimum connection cost is 13000.
+\end{verbatim}
+\vspace{1cm }
+
+\begin{center}
+{\Large\bf Problem E: Number of Combinations}
+\end{center}
+
+\bigskip\noindent{\bf The Problem}
+
+The number of combinations of $n$ distinct items taken $m$ at a time is
+given by the following formula:  $${n\choose m} = {{n!}\over{m!(n-m)!}}$$
+for integers $m$ and $n$, with $0\le m\le n$.
+Given two numbers $n$ and $m$, write a program to compute the value of
+$n\choose m$.
+
+\bigskip\noindent{\bf The Input}
+
+The input file may contain more than one instance.
+Each instance consists of two integers $m$ and $n$ with $0<m<n$.
+
+\bigskip\noindent{\bf The Output}
+
+The values of $n$, $m$, and $n\choose m$ must be printed in a format as
+shown in the Sample Output.
+Note that if the number of digits of $n\choose m$ is more than 50, it
+should be warped to the next line.
+
+\bigskip\noindent{\bf Sample Input}
+\begin{verbatim}
+5 2
+3 3
+123 4
+\end{verbatim}
+
+\bigskip\noindent{\bf Sample Output}
+\begin{verbatim}
+C(5,2)=10
+C(3,3)=1
+C(123,4)=9078630
+\end{verbatim}
+\vspace{1cm }
+
+\begin{center}
+{\Large\bf Problem F: Euler Tour}
+\end{center}
+
+\bigskip\noindent{\bf The Problem}
+
+Let $G$ be a simple undirected graph with $n$ vertices $1,2,\dots,n$.
+The graph $G$ can be represented by an {\it adjacency matrix} $A$.
+Each element, $a_{i,j}$, of $A$ is either $0$ or $1$, and $(a_{i,j})=1$
+if, and only if, there is an edge between vertex $i$ and vertex $j$.
+For example, the following picture shows a graph at the left and its
+adjacency matrix at the right.
+\begin{verbatim}
+1----2
+ \  /                 0 1 1 0 0
+  \/                  1 0 1 0 0
+  3                   1 1 0 1 1 
+  /\                  0 0 1 0 1
+ /  \                 0 0 1 1 0
+4----5
+\end{verbatim}
+A tour of $G$ is a sequence $v_0,e_1,v_1,e_2,v_2\dots,e_k,v_k$,
+Such that $e_i$ is an edge that connects $v_{i-1}$ and $v_i$.
+An Euler tour is a tour $v_0,e_1,v_1,e_2,v_2\dots,e_k,v_k$
+such that $v_0 = v_k$, and each edge appears exactly once in the
+tour.
+Since the graph is simple, we will omit all the edges in the tour.
+For example, the sequence 2,3,5,4,3,1,2 is an Euler tour of the above graph.
+In this problem, we want to write a program to construct an Euler tour
+for simple undirected graphs.
+Note that not every graph has an Euler tour, and
+if a graph has an Euler tour, the tour may not be unique.
+
+\bigskip\noindent{\bf The Input}
+
+The input file may contain more than one instance.
+The first line of each instance is the number of vertices $n$.
+It is then followed by $a_{i,j}$'s, arranged in the
+order $a_{1,j}$, $j=1,2\dots,n$, $a_{2,j}$, $j=1,2\dots,n$, and so on.
+You may assume that $n<100$.
+
+\bigskip\noindent {\bf The Output}
+
+If the graph has an Euler tour, the output is a sequence of vertices
+which is an Euler tour of the graph.
+If the graph has no Euler tour, print the string
+``The graph is not Eulerian.''
+
+\bigskip\noindent {\bf Sample Input}
+
+\begin{verbatim}
+5
+0 1 1 0 0
+1 0 1 0 0
+1 1 0 1 1
+0 0 1 0 1
+0 0 1 1 0
+3
+0 1 0
+1 0 1
+0 1 0
+\end{verbatim}
+
+\bigskip\noindent {\bf Sample Output}
+\begin{verbatim}
+2 3 5 4 3 1 2
+The Graph is not Eulerian.
+\end{verbatim}
+
+\end{document}
+\bye
+
+\endinput
