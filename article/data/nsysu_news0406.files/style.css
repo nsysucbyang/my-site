@@ -1,0 +1,39 @@
+.NewsTimestamp {
+	FONT-SIZE: 13px; PADDING-BOTTOM: 2px; FONT-FAMILY: verdana, "Lucida Sans Typewriter", helvetica
+}
+.NewsText {
+	FONT-SIZE: 11pt; COLOR: #4b4b4b; LINE-HEIGHT: 18pt; FONT-FAMILY: "新細明體", "細明體"
+}
+.NewsTitle {
+	FONT-SIZE: 18px; LINE-HEIGHT: 18pt; FONT-FAMILY: "標楷體", "細明體"
+}
+.PicCaption {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; LINE-HEIGHT: 18pt; FONT-FAMILY: "新細明體", "標楷體"
+}
+.HeaderTitle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: white; TEXT-DECORATION: none
+}
+.NewsLinkBg {
+	BACKGROUND-COLOR: #e2d1da
+}
+.BoxLatestNews {
+	BACKGROUND-COLOR: #eeeeee
+}
+.LeftCol {
+	BACKGROUND-IMAGE: url(../images/Background_L.gif)
+}
+.rightCol {
+	BACKGROUND-IMAGE: url(../images/spacer.gif); BACKGROUND-COLOR: #bbd3e4
+}
+.leftMenu {
+	BACKGROUND-IMAGE: url(../images/spacer.gif); BACKGROUND-COLOR: #bbd3e4
+}
+.TableNoBg {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.TableBg {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e2d1da; TEXT-DECORATION: none
+}
+.FooterText {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: white; TEXT-DECORATION: none
+}
