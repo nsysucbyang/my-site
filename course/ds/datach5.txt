@@ -1,0 +1,249 @@
+資料結構第五章習題參考解答
+        課本： Data Structures Using C and C++
+           by Y. Langsam, M. J. Augenstein and A. M.Tenenbaum
+
+5.1.4(a)  Write recursive and nonrecursive algorithms to determine
+          the number of nodes in a binary tree.
+Solution:
+(1)recursive:
+sturct nodetype {
+   int info;
+   struct nodetype *left;
+   struct nodetype *right;
+}
+int num(struct nodetype *tree)
+{
+   if(tree==NULL)
+      return(0);
+   else
+      return(num(tree->left)+1+num(tree->right));
+}   /* end of num() */
+
+(2)nonrecursive:
+sturct nodetype {
+    int info;
+    struct nodetype *left;
+    struct nodetype *right;
+    struct nodetype *father;
+    int direction;
+/* direction=1 if left son has been traversed
+            =2 if left and right sons have been traversed */
+}
+int num(struct nodetype *tree)
+{    
+   int level;  /* level of root is 0, if level=-1 then exit */
+   int n;      /* number of nodes in the tree */
+   struct nodetype *p;
+
+   p=tree;
+   if(p==NULL)   /* no node */
+      return(0);
+   level=0;
+   n=1;       /* count the root */
+   while(level != -1) {
+      if((p->left != NULL) && (p->direction == 0)) {
+         p->direction=1;
+         p=p->left;
+         p->direction=0;
+         n++;   /* count the left subtree */
+         level++;
+         continue;
+      }
+      if((p->right != NULL) && (p->direction <= 1)) {
+         p->direction=2;
+         p=p->right;
+         p->direction=0;
+         n++;   /* count the right subtree */
+         level++;
+         continue;
+      }
+      p=p->father;   /* back to father */
+      level--;
+   }  /* end of while() */
+   return(n);
+}  /* end of num() */
+
+5.1.4(b)  Write recursive and nonrecursive algorithms to determine
+          the sum of the contents of all the nodes in a binary tree.
+Solution:
+(1)recursive:
+sturct nodetype {
+   int info;
+   struct nodetype *left;
+   struct nodetype *right;
+}
+int sum(struct nodetype *tree)
+{
+   if(tree==NULL)
+      return(0);
+   else
+     return(sum(tree->left) + tree->info + sum(tree->right));
+}   /* end of sum() */
+
+5.1.4(c)  Write recursive and nonrecursive algorithms to determine
+          the depth of a binary tree. Note that the depth of a
+          binary tree consisting of a single node is 0.
+Solution:
+(1)recursive:
+sturct nodetype {
+   int info;
+   struct nodetype *left;
+   struct nodetype *right;
+}
+int depth(struct nodetype *tree)
+{
+   int leftdepth,rightdepth;
+   if(tree==NULL)
+      return(-1);        /* no depth */
+   leftdepth=depth(tree->left);
+   rightdepth=depth(tree->right);
+   if (leftdepth>=rightdepth)
+      return(leftdepth+1);        /* left subtree is higher */
+   else
+      return(rightdepth+1);        /* left subtree is higher */
+}   /* end of depth() */
+
+5.1.5(a) Write a C function to determine if a binary tree is
+         strictly binary.
+Solution:
+sturct nodetype {
+   int info;
+   struct nodetype *left;
+   struct nodetype *right;
+}
+int strictly(struct nodetype *tree)
+{
+   if (tree==NULL)
+      return(TRUE);
+   if (((tree->left==NULL)&&(tree->right)!=NULL))||
+         ((tree->left!=NULL)&&(tree->right==NULL)))
+      return(FALSE);
+   else
+      return(strictly(tree->left)&&strictly(tree->right));
+}
+
+5.1.5(b) Write an algorithm to determine if a binary tree is
+         complete.
+Solution:
+sturct nodetype {
+   int info;
+   struct nodetype *left;
+   struct nodetype *right;
+}
+int complete(struct nodetype *tree)
+/* return depth of the tree if it is complete
+   return -2 if it is not */
+{
+   int leftdepth,rightdepth;
+
+   if(tree==NULL)
+      return(-1);      /* NULL tree is complete with depth -1 */
+   leftdepth=complete(tree->left);
+   rightdepth=complete(tree->right);
+   if ((leftdepth==rightdepth) && (leftdepth != -2))
+      return(leftdepth+1);        /* complete subtree */
+   else
+      retrun(-2);          /* not compelte */
+}    /* end of complete() */
+
+5.1.9  Two binary trees are similar if they are both empty or if they
+       are both nonempty, their left subtrees are similar, and their
+       right subtrees are similar. Write an algorithm to determine
+       if two binary trees are similar.
+Solution:
+sturct nodetype {
+   int info;
+   struct nodetype *left;
+   struct nodetype *right;
+}
+int similar(struct nodetype *p, struct nodetype *q)
+/* return 1 if the two trees are similar
+  return -1 if they are not */
+{
+   if(p==NULL && q==NULL)
+      return(1);
+   else (p==NULL || q==NULL)  /* one is empty */
+      return(-1);
+   if ((similar(p->left,q->left)==1) &&
+        similar(p->right,q->right)==1))
+      return(1);
+   else
+      return(-1);
+}  /* end of similar() */
+
+5.2.2  Write a C function that accepts a pointer to a binary tree
+       and a pointer to a node of the tree and returns the level
+       of the node in the tree. Note that the level of the root of
+       a binary is 0 and the level of the sons of the root is 1.
+Solution:
+sturct nodetype {
+    int info;
+    struct nodetype *left;
+    struct nodetype *right;
+}
+int search(struct nodetype *tree, struct nodetype *p, int level)
+/* tree is a binary tree, p is a node,
+  level is level of the root of the subtree
+  return the level if the node is found
+  return -1 if the node is not found */
+{
+   int leftlevel,rightlevel;
+
+   if(tree==NULL)
+      return(-1);    /* not found */
+   if(tree==p)
+      return(level);    /* find it */
+   leftlevel=search(tree->left,p,level+1);
+   if (leftlevel != -1)   /* find it */
+      return(leftlevel);
+   else
+      return(search(tree->right,p,level+1));
+}  /* end of search() */
+
+main()
+{
+   struct nodetype *root, *p
+
+   level(root, p, 0);   /* level of root is 0 */
+}
+
+5.3  (a) Define the Fibonacci binary tree of order n as follows:
+     If n = 0 or n = 1, the tree consists of a single node. If
+     n > 1, the tree consists of a root, with the Fibonacci tree
+     of order n-1 as the left subtree and the Fibonacci tree of
+     order n-2 as the right subtree.
+     (b) Write a C function that returns a pointer to the Fibonacci
+     binary tree of order n.
+             struct nodetype {
+                     int info;
+                     struct nodetype *left;
+                     struct nodetype *right;
+             }
+             typedef struct nodetype *NODEPTR;
+             NODEPTR fib(int n)
+     You can call the following function directly. In other words,
+     you need not write the program of this function.
+     NODEPTR getnode( ): Allocate the storage of a tree node.
+Solution:
+struct nodetype {
+   int info;
+   struct nodetype *left;
+   struct nodetype *right;
+}
+typedef struct nodetype *NODEPTR;
+NODEPTR fib(int n)
+{
+   NODEPTR p = getnode();
+
+   if (n == 0 || n == 1) {
+      p->left = NULL;
+      p->right = NULL;
+   }
+   else
+   {
+      p->left = fib(n - 1);
+      p->right = fib(n - 2);
+   }
+   return p;
+}
+

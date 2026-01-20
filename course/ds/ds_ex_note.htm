@@ -1,0 +1,381 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name="keywords" content="資料結構， 中山大學，Data Structures, National Sun Yat-sen University">
+<meta name=ProgId content=FrontPage.Editor.Document>
+<meta name=Generator content="Microsoft FrontPage 6.0">
+<meta name=Originator content="Microsoft Word 10">
+<title>資料結構， 中山大學，Data Structures, National Sun Yat-sen University</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>John Peng</o:Author>
+  <o:LastAuthor>John Peng</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>22</o:TotalTime>
+  <o:Created>2006-10-05T08:58:00Z</o:Created>
+  <o:LastSaved>2006-10-05T08:58:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>70</o:Words>
+  <o:Characters>400</o:Characters>
+  <o:Company>nsysu</o:Company>
+  <o:Lines>3</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>469</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:新細明體;
+	panose-1:2 2 3 0 0 0 0 0 0 0;
+	mso-font-alt:PMingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 3 9 0 0 0 0 0 0;
+	mso-font-alt:MingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{font-family:標楷體;
+	panose-1:3 0 5 9 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:script;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{font-family:"\@標楷體";
+	panose-1:3 0 5 9 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:script;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 3 9 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 3 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:新細明體;
+	mso-font-kerning:1.0pt; margin-left:0cm; margin-right:0cm; margin-top:0cm}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:細明體;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";
+	mso-font-kerning:1.0pt;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 57.65pt 72.0pt 57.65pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:18.0pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:795680451;
+	mso-list-type:hybrid;
+	mso-list-template-ids:925926094 67698703 -1389713500 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:24.0pt;
+	mso-level-number-position:left;
+	margin-left:24.0pt;
+	text-indent:-24.0pt;}
+@list l0:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;
+	mso-ansi-language:EN-US;}
+@list l1
+	{mso-list-id:914978278;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2143638258 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:24.0pt;
+	mso-level-number-position:left;
+	margin-left:24.0pt;
+	text-indent:-24.0pt;}
+@list l1:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:表格內文;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman"}
+</style>
+<![endif]-->
+</head>
+
+<body lang=ZH-TW link=#0000FF vlink=#800080 style='tab-interval:24.0pt;text-justify-trim:
+punctuation'>
+
+<div class=Section1 style='layout-grid:18.0pt'>
+
+<p class=MsoPlainText>　</p>
+
+<p class=MsoPlainText><font size="5">
+<span style='font-family:標楷體;mso-bidi-font-family:
+細明體; background-color:#FFFF00'>資料結構上機習題繳交方式 </span></font></p>
+<p class=MsoPlainText><font size="5">
+<span style='font-family:Times New Roman;mso-bidi-font-family:
+細明體; background-color:#FFFF00'>(Submission of Assignments of Data Structures, 
+See below for English version) </span></font></p>
+<p class=MsoPlainText>　</p>
+
+<ul>
+	<li>
+	<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]>
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">
+	<font size="5" color="#0000FF">程式的註解：<br></font><font size="4">1.每個程式需有下列三行註解：<br>&nbsp;&nbsp; 
+	<font color="#FF0000">Author</font>：作者姓名（含學號）<br>&nbsp;&nbsp; 
+	<font color="#FF0000">Date</font>：撰寫日期 （如 Sept. 22, 2025）<br>&nbsp;&nbsp; 
+	<font color="#FF0000">Purpose</font>：本程式之功能與用途<br>2.每一個變數名稱以及每一個函數的參數均需加上註解<br>3.在適當處加入註解（程式行數與註解行數約為2:1）</font></span><![endif]></p>
+	</li>
+	<li>
+	<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]><![endif]>
+	<![if !supportLists]>
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">
+	<font color="#0000FF" size="5">繳交上機習題方式：<br></font><font size="4">1.準備下述三個檔案：  
+	 
+	<br>&nbsp;&nbsp; (1) <font color="#FF0000">原始程式檔</font>（檔案名稱為 hw1-b133040099.c 或 
+	hw1-b133040099.cpp，名稱中，前段為作業編號，後段為學號）<br>&nbsp;&nbsp; (2)<font color="#FF0000"> 執行檔</font>（檔案名稱為 hw1-b133040099.exe）<br>&nbsp;&nbsp; (3) 
+	<font color="#FF0000">執行結果</font>（檔案名稱為 hw1-b133040099.out）<br>2.將上述三個檔案 上傳至
+	 
+	</font></span><![endif]>
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>
+	<font size="4">&nbsp;<a href="https://elearn.nsysu.edu.tw/#/">中山大學的&#65378;網路大學&#65379;</a></font></span></p></li>
+	<li>
+	<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]><![endif]>
+	<![if !supportLists]><font color="#0000FF" size="5">
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">繳交</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>期限</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">：<br>
+	</span></font><![endif]><font size="4">
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">1.</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>每個</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">上機習題之繳交期限均在課程網頁公布，繳交期限為到期日之23:59(23時59分），此時間將於作業繳交系統設定。<br>
+	2. 繳交作業時，若發生問題，請立即透過e-mail向助教反應。 </span></font></p></li>
+	<li>
+	<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]>
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">
+	<font size="5" color="#0000FF">問題反應：<br></font></span><font size="4">
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>
+	</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">e-mail 至  
+	</span></font><![endif]>
+	<![if !supportLists]><font size="4">
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>
+	<a href="mailto:nsysudsproblem@gmail.com">nsysudsproblem@gmail.com</a>&nbsp;
+	<span lang="en-us">，</span>標題(主旨)</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">格式為&quot;資結問題-問題標題&quot;。<br>
+	</span></font><![endif]><font size="4"><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">例如：&quot;</span></font><![if !supportLists]><font size="4"><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font color="#FF0000">資結問題-關於linked-list</font></span></font><![endif]><font size="4"><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">&quot;</span></font><![if !supportLists]><font size="4"><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"> 
+	。</span></font><![endif]><![if !supportLists]><font size="4"><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><br><br>
+	注意：為過濾垃圾信件，助教的信箱有設定過濾條件</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>。</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">請務必依照格式<br></span>
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>
+	反應</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">問題</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>，</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">否則信件</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>可能</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">會被系統自動過濾掉而導致助教沒收到信
+	。</span></font><![endif]></p>
+	</li>
+</ul>
+
+<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]><![endif]></p>
+<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><span lang="en-us">
+<font face="Times New Roman" size="4"><![if !supportLists]>
+------------------------------------------------------------------------------<![endif]></font></span></p>
+<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]><![endif]></p>
+<p class=MsoPlainText><font size="5">
+<span style='font-family:Times New Roman;mso-bidi-font-family:
+細明體; background-color:#FFFF00'>Submission of Assignments of Data Structures 
+(English version) </span></font></p>
+
+<ul>
+	<li>
+	<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]>
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">
+	<font size="5" color="#0000FF">Comments in programs:<br></font><font size="4">1. </font></span>
+	<![endif]><![if !supportLists]><![endif]>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">
+	Each program should have the following three lines of comme</span><font face="Times New Roman"><span lang="EN-US" style="font-size: 13.5pt; color: black">nt</span><span style="font-size: 13.5pt; color: black">s:</span></font><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4"><br>&nbsp;&nbsp; 
+	</font></span><![endif]>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: red">
+	Author</span><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">: 
+	name of the author (including student ID)</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4"><br>&nbsp;&nbsp; 
+	<font color="#FF0000">Date</font></font></span><![endif]><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">:
+	</span><![if !supportLists]>
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">
+	<font size="4">date for program design&nbsp; (E.g. Sept. 22, 2025)<br>&nbsp;&nbsp; 
+	<font color="#FF0000">Purpose</font></font></span><![endif]><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">:</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4"> 
+	the function&nbsp; of the program</font></span><![endif]><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4"><br>2.</font></span><![endif]><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif">Add 
+	comments to each variable name and each of the function’s parameters.</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4"><br>3.</font></span><![endif]><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif">Add 
+	comments appropriately. </span><![if !supportLists]>
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">
+	<font size="4">(The ratio between the number of program lines and the number 
+	of comment lines is approximately 2:1.)</font></span><![endif]></p>
+	</li>
+	<li>
+	<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]><![endif]>
+	<span lang="en-us"><font size="5" color="#0000FF">
+	<span style="font-family: Times New Roman">S</span></font></span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font color="#0000FF" size="5">ubmission 
+	way of the assignments:<br></font><font size="4">1.</font></span><![endif]><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">Prepare 
+	the following three files</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4">：  
+	 
+	<br>&nbsp;&nbsp; (1) </font></span><![endif]>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: red">
+	Source program file</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4"> 
+	(</font></span><![endif]><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">The 
+	file name is hw1-b133040099.c or hw1-b133040099.cpp, where the former is the 
+	assignment number, and the latter is student ID)</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4"><br>&nbsp;&nbsp; (2)<font color="#FF0000">
+	</font></font></span><![endif]>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: red">
+	Executable file</span><font size="4"> (</font><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">The 
+	file name is hw1-b133040099.exe</span><span style="font-size: 13.5pt; font-family: 細明體; color: black">)</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4"><br>&nbsp;&nbsp; (3) 
+	</font></span><![endif]>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: red">
+	Output result</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4"><font color="#FF0000">s 
+	of program execution</font> (</font></span><![endif]><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">The 
+	file name is hw1-b133040099.out</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="4">)<br>2.Upload 
+	the above three files to the <a href="https://elearn.nsysu.edu.tw/#/">National Sun 
+	Yat-sen Cyber University</a>. </font></span>
+	<![endif]>
+	</p></li>
+	<li>
+	<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]><![endif]>
+	<![if !supportLists]><font color="#0000FF" size="5">
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>
+	Deadline</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">:<br>
+	</span></font><![endif]><font size="4">
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">1.</span><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore'>
+	</span></font>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">
+	The due date of each assignment is published on the course web site, 
+	precisely 23:59 of the due date</span><font size="4"><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">.<br>2. 
+	If there is any problem, please contact TA </span></font>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">&nbsp;immediately 
+	via e-mails.</span><font size="4"><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">
+	</span></font></p></li>
+	<li>
+	<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'>
+	<span lang="EN-US" style="font-size: 18.0pt; font-family: 'Times New Roman',serif; color: blue">
+	Question report:</span><![if !supportLists]><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><font size="5" color="#0000FF"><br>
+	</font></span><font size="4">
+	<span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US">e-mail 
+	to&nbsp; </span></font><![endif]>
+	<font lang="ZH-TW" size="4" face="Times New Roman">
+	<a href="mailto:nsysudsproblem@gmail.com">nsysudsproblem@gmail.com</a> </font><span lang="en-us"><font lang="ZH-TW" size="4" face="Times New Roman">,&nbsp; 
+	with </font></span>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">
+	Title (Subject) format &quot;</span><span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: red">
+	</span>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">
+	Problem of data structures - question&quot;.</span><![if !supportLists]><font size="4"><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><br>
+	</span></font><![endif]>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: red">
+	e.g. &quot;Problems of data structures-linked-list&quot;</span><![if !supportLists]><font size="4"><span style='font-style:normal; font-variant:normal; font-weight:normal; font-family:Times New Roman; mso-fareast-font-family:Times New Roman; mso-list:Ignore' lang="EN-US"><br>
+	<br></span></font><![endif]>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">
+	Notice: Be sure to be in such format.</span><span lang="EN-US" style="font-size: 12.0pt; font-family: Calibri,sans-serif">
+	</span>
+	<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black">
+	Otherwise, the email may be automatically filtered out and TA will not 
+	receive it.</span></p></li>
+</ul>
+<p class=MsoPlainText style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:
+l1 level1 lfo2;tab-stops:list 24.0pt'><![if !supportLists]><![endif]></p>
+
+</div>
+
+</body>
+
+</html>

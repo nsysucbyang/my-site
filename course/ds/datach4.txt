@@ -1,0 +1,471 @@
+資料結構第四章習題參考解答
+        課本： Data Structures Using C and C++
+           by Y. Langsam, M. J. Augenstein and A. M.Tenenbaum
+
+
+4.3.4 (f) Write a C function to delete the nth element from a linearly
+          linked list, which is implemented by an array. It is 
+		  assumed that the number of elements in the  list is greater 
+		  than n. Note that if n = 1, then the first node of the list 
+		  will be deleted. You can use the function free(p) to free a 
+		  node p.
+Solution:
+struct nodetype {
+   int info;
+   int next;
+}
+struct nodetype node[100];
+void delete(int *list, int n)
+{
+   int i,p,q;
+   
+   p = *list;
+   if(n==1) {
+      list=node[p].next;
+      free(p);
+      return;
+   } /* end of if */
+  
+   for (i=2, i<=(n-1); i++)    // find the (n-1)th node
+      p=node[p].next;
+   q=node[p].next;   // q is the nth node
+   node[p].next=node[q].next;   // pointer to next, delete q
+   free(q);
+}
+
+4.3.4 (f) Write a C function to delete the nth element from a linearly 
+          linked list, which is implemented by dynamic variables. It is 
+		  assumed that the number of elements in the  list is greater 
+		  than n. Note that if n = 1, then the first node of the list 
+		  will be deleted. You can use the function free(p) to free a 
+		  node p.
+Solution:
+struct nodetype {
+    char info;
+    struct nodetype *next;
+};
+
+void delete(struct nodetype **list, int n) {
+   struct nodetype *p, *q;
+   int i;
+   
+   p = *list;
+   if(n==1) {
+      *list = p->next;
+      free(p);
+      return;
+   } /* end of if */
+
+   for(i = 2; i<=(n-1); i++)          // find the (n-1)th node
+      p = p->next;
+   q = p->next;                   // q is the nth node
+   p->next = q->next;              // pointer to next, delete q
+   free(q);
+}
+
+4.3.4(m) Write a C function to calculate the sum of the values
+         stored in a linearly linked list, which is implemented
+         by an array.
+Solution:
+(1)nonrecursive:
+struct nodetype {
+   int info;
+   int next;
+}
+struct nodetype node[100];
+int sum(int list)
+{
+   int p, s;
+
+   for (p=list, s=0; p!= -1; p=node[p].next)  {
+                  /* -1 means the end of the list */
+      s = s+node[p].info;
+   }
+   return(s);
+}
+
+(2)recursive:
+struct nodetype {
+   int info;
+   int next;
+}
+struct nodetype node[100];
+int sum(int list)
+{
+   if(list == -1)  /*empty or end*/
+      return (0);
+   return(node[list].info + sum(node[list].next));
+}
+
+
+4.3.9 (g) Write a C function to compare two character strings represented by linearly
+   linked lists, which are implemented by dynamic variables. Each node of the
+   lists stores one character. This function returns -1 if the character string
+   represented by list1 is less than the string represented by list2, 0 if they
+   are equal, and 1 if the string represented by list1 is greater.
+   
+Solution:
+// (Comparison of vocabulary. Similar to int strcmp(const char *s1, const char *s2);
+struct nodetype {
+   char info;
+   struct nodetype *next;
+}
+int compare(struct nodetype *list1, struct nodetype *list2)
+{
+   struct nodetype *p;
+   struct nodetype *q;
+   p = list1;
+   q = list2;
+
+   while(p!=NULL && q!=NULL){
+      /*Compare each pair of nodes */
+      if(p->info < q->info)
+         return -1;
+      else if(p->info > q->info)
+         return 1;
+      else {
+         p = p->next;
+         q = q->next;
+      }
+   }
+
+   if(p==NULL && q!=NULL)  return -1;
+   else if(p==NULL && q==NULL)     return 0;
+   else return 1;
+}
+
+
+4.5.1 (b) Write a C function to concatenate two circular linearly linked lists, which
+   are implemented by arrays.
+Solution:
+//  The external pointer points to the tail, not the head, in a circular linked list.
+//  “Concatenate” means “string concatenate”. 
+//      Similar to int strcat(const char *s1, const char *s2);
+struct nodetype {
+   int info;
+   int next;
+}
+struct nodetype node[100];
+void concatenate(int *list1, int *list2)
+  // list1 points to the tail of the new list
+{
+   int p;
+
+   /*check whether each of the lists is empty*/
+   if (*list1 == -1) {
+      *list1 = *list2;
+      return;
+   }
+   if (*list2 == -1)
+      return;
+
+   p = node[*list1].next;
+   node[*list1].next = node[*list2].next;
+   node[*list2].next = p;
+   *list1 = *list2;
+}
+
+
+4.5.1 (f) Write a C function to delete the nth element from a circular
+  linearly linked list, which is implemented by an array. It is assumed
+  that the number of elements in the list is greater than n. Note that
+  if n = 1, then the first node of the list will be deleted. You can
+  use the function freenode(p) to free a node p.
+
+Solution:
+//  The external pointer points to the tail, not the head,
+// in a circular linked list.
+struct nodetype {
+   int info;
+   int next;
+}
+struct nodetype node[100];
+void delete(int *list, int n)
+{
+   int i, p, r;
+
+   p = *list;
+   if (p == node[p].next) {      // only one node, delete the node
+      *list = -1;
+      freenode(p);
+      return;
+   }
+   for(i = 1; i < n; i++)
+      p = node[p].next;
+
+   r = node[p].next;               // delete node r
+   node[p].next = node[r].next;
+   freenode(r);
+}
+
+
+4.5.7 (d) Write a C function to reverse a circular doubly linked list,
+          so that the last element becomes the first, and so on. The list
+          is implemented by dynamic variables. It is assumed that the
+          number of elements in the list is greater than 2.
+Solution I:		  
+// The external pointer points to the tail, not the head, of the list. 		  
+struct nodetype {
+   int info;
+   struct nodetype *left,*right;
+}
+void reverse(struct nodetype **list)
+// *list points to the last node (tail)
+{
+   struct nodetype *p,*q, *r;
+
+   p=*list;
+   do {
+      q=p->right;
+	  r=p->left;
+      p->right=r;
+      p->left=q;
+      p=q;
+   } while (p!=*list)
+   // old *list now points to the first node
+   *list=p->left;  // let *list point to the last node
+}		  
+Solution II:
+//  The external pointer points to the head of the circular linked list.
+struct nodetype {
+   int info;
+   struct nodetype *left,*right;
+}
+void reverse(struct nodetype **list)
+// *list points to the first node
+{
+   struct nodetype *p,*q, *r;
+
+   p=*list;
+   do {
+      q=p->right;
+	  r=p->left;
+      p->right=r;
+      p->left=q;
+      p=q;
+   } while (p!=*list)
+   // old *list now points to the last node
+   *list=p->right;  // let *list point to the first node
+}
+
+4.5.7(f) Write a C function to delete the nth element from a
+         circular doubly linked list, which is implemented by
+         dynamic variables.
+Solution I:
+//  The external pointer points to the head of the circular linked list.
+struct nodetype {
+   int info;
+   struct nodetype *left,*right;
+}
+typedef struct nodetype *NODEPTR;
+void delete(NODEPTR *list, int n)
+{
+   int i;        /* to count the number of nodes */
+   NODEPTR p,q,r;
+
+   if (*list==NULL) {
+      printf("void deletion");
+      exit(1);
+   }
+   for (p=*list, i=1; i<n; i++)  /* *list is the head */
+      p=p->right;
+   /* have found the nth node, delete it */
+   q=p->left;
+   r=p->right;
+   if (p==q)   /* only one node in the list */
+      *list=NULL;
+   else {
+      q->right=r;
+      r-left=q;
+   }
+   free(p);
+}
+
+Solution II:
+// The external pointer points to the tail, not the head, of the list. 
+void delete(NODEPTR *list, int n){
+   NODEPTR p,q,r;
+   int i;
+   p=(*list)->right;   //point to the head
+   /* locate the nth node */
+   for(i = 1; i < n; i++)
+      p=p->right;
+   
+   /*delete node p*/
+   r = p->right;
+   q = p->left
+   if (p==q)   /* only one node in the list */
+      *list =NULL;
+   else {
+      q->right = r;
+      r->left = q;
+   	  /* update the external pointer if p is the tail */ 
+      if (p==*list) 
+         *list=q;                             
+   }
+   freenode(p);
+}
+
+4.5.7(f) Write a C function to delete the nth element from a circular doubly linked
+   list, which is implemented by an array.
+Solution:
+/* The external pointer points to the last (tail), not the 
+        first (head), in a circular linked list. */
+//  Assume that n is less than or equal to the length of the list.
+
+struct nodetype {
+   int info;
+   int left, right;
+}
+struct nodetype node[100];
+void delete(int *list, int n)
+{
+   int i, p, q, r;
+   
+   p = node[*list].right;   // point to the head
+   /* locate the nth node */
+   for(i = 1; i < n; i++)
+      p = node[p].right;
+   
+   /*delete node p*/
+   r = node[p].right;
+   q = node[p].left
+   if (p==q)   /* only one node in the list */
+      *list = -1;
+   else {
+      node[q].right = r;
+      node[r].left = q;
+   	  /* update the external pointer if p is the tail */ 
+      if (p==*list) 
+         *list=q;                             
+   }
+   freenode(p);
+}
+
+
+4.5.7(g) Write a C function to combine two ordered lists into a
+         single ordered list, where these lists are represented
+         with circular doubly linked lists and implemented by an
+         array. Note that each list may be empty.
+Solution:
+struct nodetype {
+   int info;
+   int left, right;
+}
+struct nodetype node[100];
+void combine(int *lista, int *listb)
+/* *lista and *listb are the pointers of the two lists */
+/* After combination, *lista points to the resulting list. */
+/* The external pointer points to the last (tail), not the 
+   first (head), in a circular linked list. */
+{
+   int nowa, nowb, pb, pa, temp;
+
+   /* check whether each of the lists is empty */
+   if (*lista == -1) {
+      *lista = *listb;
+      return;
+   }
+   if (*listb == -1) {
+      *listb = *lista;    /* two lists point to the same rear, not necessary */
+      return;
+   }
+
+  /* Make lista point to the max tail node */
+   if (node[*lista].info < node[*listb].info ) {
+      temp = *lista;          /* swap */
+      *lista = *listb;
+      *listb = temp;
+   }
+
+   /* insert listb into lista */
+   nowa = node[*lista].right;
+   nowb = node[*listb].right;
+   while(1) {
+      if (node[nowa].info < node[nowb].info)
+                  /* cannot write <= , which has a bug
+                  with equal values in both tail nodes */
+         nowa = node[nowa].right;    /* next of lista */
+      else {      /* if (node[nowa].info > node[nowb].info) */
+         pb = nowb;
+         nowb = node[nowb].right;
+
+         /* insert node pb of listb into left of node nowa in lista */
+         pa = node[nowa].left;
+         node[pb].left = pa;
+         node[pa].right = pb;
+         node[nowa].left = pb;
+         node[pb].right = nowa;
+  
+         if (pb == *listb)  /* reach tail of listb */
+              /* listb should touch its tail before lista,
+                 because tail of lista is not less than litsb */
+            break;    /* All things have been done */
+      }  /* end of else */
+   }    /* end of while (1) */
+   *listb = *lista;    /* two lists point to the same rear, not necessary */
+}  /* end of combine ( ) */
+
+	   
+4.5.7(g) Write a C function to combine two ordered lists into a
+         single ordered list, where these lists are represented
+         with circular doubly linked lists and implemented by 
+		 dynamic variables. Note that each list may be empty.
+Solution:
+struct nodetype {
+   int info;
+   struct nodetype *left, *right;
+}
+typedef struct nodetype *NODEPTR;
+void combine(NODEPTR *lista, NODEPTR *listb)
+/* *lista and *listb are the pointers of the two lists */
+/* After combination, *lista points to the resulting list. */
+/* The external pointer points to the last (tail), not the 
+        first (head), in a circular linked list. */
+{
+   NODEPTR nowa, nowb, pb, pa, temp;
+ 
+   /* check whether each of the lists is empty */
+   if (*lista == NULL) {
+      *lista = *listb;
+      return;
+   }
+   if (*listb == NULL) {
+      *listb = *lista; /* two lists point to the same rear, not necessary */
+      return;
+   }
+
+   /* Make lista point to the max tail node */
+   if (*lista->info < *listb->info ) {
+      temp = *lista;
+      *lista = *listb;
+      *listb = temp;
+   }
+
+   /* insert listb into lista */
+   nowa = *lista->right;
+   nowb = *listb->right;
+   while(1) {
+      if (nowa->info < nowb->info)
+                   /* cannot write <= , which has a bug
+                      with equal values in both tail nodes */
+         nowa = nowa->right;  /* next of lista */
+      else {
+         pb = nowb;
+         nowb = nowb->right;
+
+         /* insert node pb of listb into left of node nowa in lista */
+         pa = nowa->left;
+         pb->left = pa;
+         pa->right = pb;
+         nowa->left = pb;
+         pb->right = nowa;
+
+         if (pb == *listb) /* reach tail of listb */
+                   /* listb should touch its tail before lista,
+                     because tail of lista is not less than litsb */
+            break;   /* All things have been done */
+      }  /* end of else */
+   }  /* end of while (1) */
+   *listb = *lista;  /* two lists point to the same rear, not necessary */
+}  /* end of combine ( ) */

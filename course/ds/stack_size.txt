@@ -1,0 +1,38 @@
+撰寫 C 程式時， stack 大小之設定方法如下：
+在 BCB 中
+        Project → Options → Linker → PE file options
+        當中可看到
+        Min stack size : 0x00002000 (8192)
+        Max stack size : 0x00100000 (1048576)
+
+        0x代表為16進位
+
+        8192 ≦ Min_Stack_Size ≦ Max_Stack_Size ≦ 1048576
+
+在 VC 中
+        Project → Setting → Link
+        將 Category 選項改成 Output
+        可以看到有一個 Stack Allocations 當中
+        Reserve → virtual memory
+        Commit  → physical memory
+
+        Default 的 stack size 是 1MB
+        最大值為 0xffffffff (4,294,967,295)
+                                       
+        或是可以在 compiler 完後..
+        在 command mode 下
+        下參數 /Fnumber , number 即 set stack size ..
+        number可以用十進位表示, 單位是 bytes
+
+在 Dev-C++ 中
+	Tools → Compiler Options → Compiler
+	勾選 Add these commands to the linker command line
+	在這裡下這樣的參數
+	-Wl,-stack,{stack size, kb}
+	ex: -Wl,-stack,50000
+
+在 Code::Blocks 中
+	Settings → Compiler and debugger settings → Compiler Settings → Other options
+	在這裡下這樣的參數
+	-Wl,-stack,{stack size, kb}
+	ex: -Wl,-stack,50000

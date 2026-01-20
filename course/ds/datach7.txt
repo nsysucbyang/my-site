@@ -1,0 +1,37 @@
+資料結構第七章習題參考解答
+        課本： Data Structures Using C and C++
+           by Y. Langsam, M. J. Augenstein and A. M.Tenenbaum
+
+7.2.1  Write a C function for a binary search tree to
+insert a new key which is known not to exist in the tree.
+Solution:
+(1)recursive:
+sturct nodetype {
+   int key;
+   struct nodetype *left;
+   struct nodetype *right;
+}
+struct nodetype *insert(struct nodetype *tree, int k)
+/* tree: root,   k: new key
+   return: the root of the tree */
+{
+   struct nodetype *p;
+
+   if(tree==NULL){
+      /* make a new tree, consisting of a single node */
+      p = new struct nodetype;
+      p->key = k;
+      p->left = NULL;
+      p->right = NULL;
+      return(p);
+   }
+
+   /* insert to the left subtree */
+   if (k < tree->key )
+      tree->left = insert(tree->left, k);
+
+   /* insert to the right subtree */
+   if (k > tree->key )
+      tree->right = insert(tree->right, k);
+   return (tree);
+}
