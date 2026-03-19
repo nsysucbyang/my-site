@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>相關聯結</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body background="mmtsBackground.gif" onload="FP_preloadImgs(/*url*/'button5.jpg', /*url*/'button6.jpg')" style="background-attachment: fixed">
+
+<p>　</p>
+<p><b><font size="5">相關聯結 </font></b></p>
+<p><font size="4">2002&nbsp;&nbsp; </font>
+<font color="#2D2D2D" face="細明體" size="4">第19屆組合數學與計算理論研討會</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://par.cse.nsysu.edu.tw/~algo2002/">
+http://par.cse.nsysu.edu.tw/~algo2002/</a></p>
+<p>2003 <font color="#2D2D2D" face="細明體" size="4">&nbsp;第20屆組合數學與計算理論研討會</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://ufo.cs.ccu.edu.tw/algo2003/">http://ufo.cs.ccu.edu.tw/algo2003/</a><br>
+　</p>
+<p>2004 <font color="#2D2D2D" face="細明體" size="4">&nbsp;第21屆組合數學與計算理論研討會</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://it.thmu.edu.tw/algo2004/">http://it.thmu.edu.tw/algo2004/</a><br>
+　</p>
+<p>2005 <font color="#2D2D2D" face="細明體" size="4">&nbsp;第22屆組合數學與計算理論研討會</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://algorithm.csie.ncku.edu.tw:8080/algo2005">
+http://algorithm.csie.ncku.edu.tw:8080/algo2005</a></p>
+<p><br>
+2006 <font color="#2D2D2D" face="細明體" size="4">&nbsp;第23屆組合數學與計算理論研討會</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://algo2006.csie.dyu.edu.tw/">http://algo2006.csie.dyu.edu.tw/</a></p>
+<p>　</p>
+<p><a href="index.htm">
+<img border="0" id="img2" src="button4.jpg" height="20" width="100" alt="回首頁" fp-style="fp-btn: Jewel 5; fp-font: 標楷體; fp-font-size: 12; fp-font-color-normal: #000080; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="回首頁" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button4.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button6.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button5.jpg')"></a></p>
+<p>　</p>
+<p><br>
+　</p>
+
+</body>
+
+
+</html>
