@@ -1,0 +1,187 @@
+          第十九屆組合數學與計算理論研討會
+       The 19th Workshop on Combinatorial Mathematics
+                 and Computation Theory
+
+               2002年3月29日至3月30日
+               國立中山大學資訊工程學系
+           http://Par.cse.nsysu.edu.tw/~algo2002/
+
+    議程如下：
+3/29  12:45-13:45 報到                             
+      14:00-15:00 專題演講                         
+                  李家同教授(暨南大學資訊工程系)   
+                  "Algorithms Related to Evolution"
+      15:00-15:20 休息                             
+      15:20-17:00 論文發表                         
+                  A1: Graph Algorithms(1)          
+                  B1: Computational Biology        
+      18:00-19:00 搭乘港都輪遊高雄港               
+      19:15-21:00 晚宴                             
+
+3/30  09:00-10:20 論文發表
+                  A2: Graph Algorithms(2)
+                  B2: Interconnection Networks(1)
+      10:20-10:40 休息
+      10:40-11:40 論文發表
+                  A3: Image Processing
+                  B3: Interconnection Networks(2)
+      11:50-12:30 座談會與綜合討論
+      12:30-14:00 午餐暨休息
+      14:00-15:00 專題演講
+                  朱緒鼎教授（中山大學應用數學系）
+                  "The Circular Chromatic Number of a Graph"
+      15:00-15:20 休息
+      15:20-17:00 論文發表
+                  A4: Combinatorial Algorithms
+                  B4: Parallel Algorithms
+      17:00       散會
+3/31  屏東一日遊  (墾丁、海洋生物館等）
+      可由本會代訂旅遊券（詳情請參考研討會網頁）
+------------------------------------------------------------
+    詳細議程如下：
+
+
+3/29  
+12:45-13:45 報到                                     
+
+14:00-15:00 專題演講                                       
+            李家同教授(暨南大學資訊工程系)                 
+            "Algorithms Related to Evolution"              
+
+15:00-15:20 休息                                           
+
+15:20-17:00 論文發表 
+                                      
+            A1: Graph Algorithms(1)                    
+             1. Shyue-Ming Tang, Yue-Li Wang                                 
+                "Independent Spanning Trees on Two-dimension Tori"                  
+             2. Sun-Yuan Hsieh, Chin-Wen Ho, Tsan-sheng Hsu, Ming-Tat Ko
+                "A Linear-Time Algorithm for the Hamiltonian Problem
+                 on Distance-Hereditary Graphs"  
+             3. Yung-Ling Lai, Feng-Hsu Chiang, Chu-He Lin, Tung-Chin Yu                                               
+                "Strong Distance of Complete Bipartite Graphs"                    
+             4. Chun-Nan Hung, Xiao-Shen Zhu                               
+                "Construction for Strongly k-Hamiltonian Graphs"                
+             5. Fu-Hsing Wang, Jou-Ming Chang, Yue-Li Wang                           
+                "Distributed Algorithms of Finding the Unique Minimum           
+                 Distance Dominating Set in Directed Split-Stars"   
+                                                                        
+            B1: Computational Biology
+             1. Bang Ye Wu                                             
+                "Approximating the two-source minimum routing cost
+                 spanning trees of metric graphs"                      
+             2. Bang Ye Wu, Kun-Mao Chao, and Chuan Yi Tang                     
+                "On the Optimum Requirement Graph Problem"             
+             3. Hsueh-I Lu                                             
+                "Identifying GC-Rich DNA Segments via Linear-Time
+                 Algorithm for Maximum Average Binary Substring"       
+             4. 吳哲賢、王志倫                                         
+                "生物序列比對問題上考慮凸形間隔處罰函數的一些O(nm)演算法"                                                   
+             5. Kuen-Feng Huang, Chang-Biau Yang, Kuo-Tsung Tseng      
+                "An Efficient Algorithm for Multiple Sequence Alignment"                                            
+
+18:00-19:00 搭乘港都輪遊高雄
+
+19:15-21:00 晚宴
+
+
+3/30  
+09:00-10:20 論文發表
+
+            A2: Graph Algorithms(2)                  
+             1. Hon-Chan Chen and Shin-Huei Wu            
+                "An O(n) Algorithm for Finding a Tree 3-Spanner on
+                 Permutation Graphs"                                  
+             2. C. M.  Lee, M. S. Chang, and S. C. Sheu
+                "The Clique Transversal and Clique Independence of
+                 Distance Hereditary Graphs"
+             3. Ruo-Wei Hung and Maw-Shang Chang
+                "A Linear Algorithm for the Connected Domination
+                 Problem on Circular-Arc Graphs"                           
+             4. F. R. Hsu, M. K. Shan, H. S. Chao, and R. C. T. Lee
+                "Some Optimal Parallel Algorithms for Shortest Path
+                 Related Problems on Interval and Circular-arc Graphs"
+                                                        
+            B2: Interconnection Networks(1)
+             1. Chin-Tsai Lin and Wen-Chung Chiu                       
+                "A Routing Scheme for Constructing Node-to-Node
+                 Disjoint Paths in Alternating Group Graphs"        
+             2. Chui-Cheng Chen                                     
+                "Embedding of Tree Machines into Hypercubes"        
+             3. Tseng-Kuei Li, Jimmy J. M. Tan, and Lih-Hsing Hsu       
+                "Fault Hamiltonicity of the Shuffle-Cubes"          
+             4. Wen-Lin Yang                                        
+                "Lower Bound Study for the Concurrent Multicast from
+                 Multiple Sources"   
+                                                             
+10:20-10:40 休息
+
+10:40-11:40 論文發表
+
+            A3: Image Processing
+             1. Shen-Chuan Tai, Yen-Yu Chen, and Shin-Feng Sheu     
+                "Design a Morphological De-ringing Filter of Ultrasound
+                 Images"                                 
+             2. Chi-Yuan Lin and Chin-Hsing Chen                       
+                "Color Image Compression Using Spread Grey-Based
+                 Neural Networks in the Transform Domain"           
+             3. Shyi-Tsong Wu and Bin-Chang Chieu                   
+                "A User Friendly Implementation of Smart Card Access
+                 with Threshold Scheme"    
+                                                                                  
+            B3: Interconnection Networks(2)
+             1. Da-Ren Chen and Chiun-Chieh Hsu                       
+                "Fault-Tolerant Routing For Pyramid Networks Using
+                 Least Level Minimal Routing Method"               
+             2. SingLing Lee and Hann-Jang Ho                         
+                "On Minimizing the Maximum Congestion for Weighted
+                 Hypergraph Embedding in a Cycle"                  
+             3. Jung-Sheng Fu                                      
+                "Cycle Embedding in the Hypercube with Faulty Nodes"
+                
+11:50-12:30 座談會與綜合討論
+
+12:30-14:00 午餐暨休息
+
+14:00-15:00 專題演講
+            朱緒鼎教授（中山大學應用數學系）
+            "The Circular Chromatic Number of a Graph"
+            
+15:00-15:20 休息
+
+15:20-17:00 論文發表
+
+            A4: Combinatorial Algorithms
+             1. Pei-Chi Wu                                           
+                "On Exponential-Time Completeness of the Circularity
+                 Problem for Attribute Grammars"                     
+             2. Chun-Chao Yeh and Chun-Hsin Wu                          
+                "An Efficient Algorithm for Finding Maximal Mean
+                 Sequence"                                           
+             3. Biing-Feng Wang, Shan-Chyun Ku, and Yong-Hsian Hsieh                 
+                "The Conditional Location of a Median Path"          
+             4. Shi-Chun Tsai, Jen-Chun Chang, and Rong-Jaye Chen        
+                "A Space-efficient Godel Numbering with Chinese
+                 Remainder Theorem"                                  
+             5. Yaw-Ling Lin and Shi-Chun Tsai                       
+                "Fibonacci Search with Multiple Probes"
+                                            
+            B4: Parallel Algorithms
+             1. Chun-Yuan Lin, Yeh-Ching Chung, and Jen-Shiuh Liu         
+                "The CFS and ED Data Distribution Schemes for Sparse
+                 Arrays on Distributed Memory Multicomputers"         
+             2. Yuh-Rau Wang, Shi-Jinn Horng, Yu-Hua Lee, and Pei-Zong Lee
+                "Optimal Parallel Algorithms for the 3D Euclidean
+                 Distance Transform on the CRCW and EREW PRAM Models" 
+             3. Chau-Jy Lin, Muh-Cherng Wu, and Chih-Han Lin               
+                "Systolic Algorithms for Solving Linear Systems"      
+             4. Yu-lung Lo, Shiou-jiuan Chen and Yu-chen Huang           
+                "Dynamic Load Balancing for Sorting Operation in
+                 Parallel Databases"                                  
+             5. Tsung-Chuan Huang and Po-Hsueh Hsu                    
+                "An Efficient Parallel Scheme for Run-Time Scheduling"  
+                                        
+17:00       散會
+
+3/31  屏東一日遊  (墾丁、海洋生物館等）
+      可由本會代訂旅遊券（詳情請參考研討會網頁）
