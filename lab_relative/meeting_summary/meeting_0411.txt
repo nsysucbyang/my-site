@@ -1,0 +1,72 @@
+中山大學資訊工程學系平行處理實驗室
+        師生 meeting 記錄
+
+日期：2004, 11, 5
+記錄：羅裕傑
+
+一、更新 實驗室網頁 上的 網路連結
+    http://www.bioalgorithms.info
+    It is the website of book "An Introduction to Bioinformatics
+Algorithms"
+    written by Neil C. Jones and Pavel A. Pevzner.
+    There are some resources about the book such as the Powerpoint
+slides,
+    the practical or implementation problems, and useful links.
+
+二、注意英文的寫法:(1) Title處除了介系詞、冠詞、連接詞以外，都需要大寫。
+
+                  (2)"Based on"其中首字 B 要大寫。
+
+                  (3)撰寫論文時，須注意前後文一致
+
+三、有趣的問題：Four-Russian 由來？
+
+    Read the paper "New algorithms for comparing symbol sequences", W.
+J. Hsu,
+    Proceedings of the 1987 Fall Joint Computer Conference on Exploring
+    technology: today and tomorrow, pp. 381-389, 1987.  In Page 382, it
+said
+    that "Up to present, the other better bound for the LCS problem is
+due
+    to Masek and Paterson [MaseSO]. They extended the approach of
+Arlazarov
+    et. al. [Arla70] in multiplying Boolean matrices (the "Four-Russian
+    Algorithm") to give an O(N*M/logN) time algorithm for the LCS
+problem."
+
+--------------------------------------------------------------
+
+日期：2004, 11, 12
+記錄：羅裕傑
+
+一、今日為聯合meeting。
+二、下一次聯合meeting時間暫定為12月3日（星期五）。
+
+--------------------------------------------------------------
+
+日期：2004, 11, 19
+記錄：羅裕傑
+
+一、注意英文用法，例： "an" LCS, not "a" LCS。
+
+二、討論煎餅問題。
+
+三、Programing 技巧解析：利用"哨兵"，可以節省時間或節省code。
+
+四、庶務組應在門後公告當月值月生名單。
+
+--------------------------------------------------------------
+
+日期：2004, 11, 26
+記錄：羅裕傑
+
+一、請 金良 向其今天報告之該篇paper作者索取程式。
+
+二、報告paper時注意事項：
+    1. 報告時請將outline省略，直接切入主題。
+    2. 製作投影片時，注意該字體形式，以方便閱讀。
+    3. 當需"舉例說明"時，盡量避免容易造成混淆的數字，
+        例如：2、4、8之間有倍數關係，又有加法關係。
+
+三、再次提醒：應注意program的品質。
+
