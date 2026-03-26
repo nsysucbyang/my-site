@@ -1,0 +1,1120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Bioinformatics and Computation 2013</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Expires" content="Fri, Jun 12 1981 08:20:00 GMT" />
+<style>
+<!--
+body {
+	font-family: arial, sans-serif;
+}
+body {
+	background: #fff;
+	margin: 0;
+}
+.fs {
+	border-left: 9px solid;
+}
+.sd .fs {
+	border-left-color: #c3d9ff;
+}
+.msg {}
+td {
+	font-family: arial, sans-serif;
+}
+.cbln {
+	background-image: url('card_left_new.gif');
+	background-position: left 50%;
+	background-repeat: repeat-y
+}
+.cbln {
+	padding: 0 1 0 0;
+}
+.mb{
+	font-size: 80%;
+	padding: 6 8 10 14;
+	width: 100%;
+}
+.ma{}
+.sq .fs {
+	border-left-color: #74dd82;
+}
+-->
+</style>
+</head>
+<body background="../../pic/index.gif" bgcolor="#ffffff" text="#000000">
+
+<p align="center"><b>Bioinformatics and Computation</b></p>
+
+<?php require("yearList.php"); ?>
+
+<p align="center">2013年</p>
+
+<table border="1" height="15" width="1271">
+<tbody>
+	<tr>
+		<td align="center" height="1" width="1023"><font color="#000080" size="4">Presentation file</font></td>
+		<td align="center" height="1" width="86"><font color="#000080" size="4">introducer</font></td>
+		<td align="center" height="1" width="63"><font color="#000080" size="4">date</font></td>
+		<td align="center" height="1" width="51"><font color="#000080" size="4">paper</font></td>
+		<td align="center" height="1" width="50"><font color="#000080" size="4">video</font></td>
+	</tr>
+	
+		<!-- Jan. 08 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130108/20130108_yuanhc.pptx" >M. V. Sudhamani, C. R. Venugopal. "Image Retrieval from Databases: an Approach using Region Color and Indexing Technique". IJCSNS International Journal of Computer Science and Network Security Vol.8, No.1, 2008<a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Jan. 08</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130108/Image Retrieval from Databases an Approach using Region Color and Indexing Technique.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130108_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Jan. 08 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130108/20130108_shiujj.pptx" >Stefan Hougardy. "The Floyd-Warshall Algorithm on Graphs with Negative Cycles". Information Processing Letters 110 (2010) 279–281<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Jan. 08</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130108/The Floyd-Warshall Algorithm on Graphs with Negative Cycles .pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130108_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Jan. 15 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130115/20130115_tsengct.pptx" >Arne Andersson and Mikkel Thorup. "Dynamic Ordered Sets with Exponential Search Trees". Journal of the ACM, Vol. 54,  No. 3, Article 13, 2007 <a></td>
+			<td style="text-align: center;">曾球庭</td>
+			<td style="text-align: center;">Jan. 15</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130115/Ande07.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130115_tsengct"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Jan. 15 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130115/20130115_guoyp.pptx" >Wen Zhang, Taketoshi Yoshida, Xijin Tang. "A comparative study of TF*IDF, LSI and multi-words for text classification". Expert Systems with Applications Volume 38, Issue 3, March 2011, Pages 2758–2765<a></td>
+			<td style="text-align: center;">郭奕浦</td>
+			<td style="text-align: center;">Jan. 15</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130115/1-s2.0-S0957417410008626-main.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130115_guoyp"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Jan. 21 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130121/20130121_leech.pptx" >Ling-Yuan Hsu, Shi-Jinn Horng, Mingxing He, Pingzhi Fan, Tzong-Wann Kao,Muhammad Khurram Khan, Ray-Shine Run, Jui-Lin Lai, Rong-Jian Chen. "Mutual funds trading strategy based on particle swarm optimization". Expert Systems with Applications 38 (2011) 7582–7602<a></td>
+			<td style="text-align: center;">李承翰</td>
+			<td style="text-align: center;">Jan. 21</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130121/Mutual funds trading strategy based on particle swarm optimization.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130121_leech"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Jan. 21 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130121/20130121_fangjy.pptx" >Abdolreza Hatamlou, Salwani Abdullah, Hossein Nezamabadi-pour. "A combined approach for clustering based on K-means and gravitational search algorithms". Swarm and Evolutionary Computation 6 (2012) 47–52<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Jan. 21</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130121/1-s2.0-S2210650212000235-main.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130121_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Feb.01 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130201/20130201_horcy.ppt" >Yang Zhang and Jeffrey Skolnick. "Scoring Function for Automated Assessment of Protein Structure Template Quality". PROTEINS: Structure, Function, and Bioinformatics Vol. 57, pp.702–710, 2004<a></td>
+			<td style="text-align: center;">何秋誼</td>
+			<td style="text-align: center;">Feb.01</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130201/data.zip"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130201_horcy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Feb.05 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130205/20130205_chenhh.pptx" >Geoffrey E. Hinton, Simon Osindero, and Yee-Whye Teh. "A fast learning algorithm for deep belief nets". Neural Computation,  Vo. 18, Issue 7, pp. 1527-1554, 2006<a></td>
+			<td style="text-align: center;">陳紘昕</td>
+			<td style="text-align: center;">Feb.05</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130205/20130205_deeplearning.zip"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130205_chenhh"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Feb.05 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130205/20130205_guoyp.pptx" >Alejandro Flores-Mendez and Manuel Bernal-Urbina. "Dynamic Signature Verification through the Longest Common Subsequence Problem and Genetic Algorithms". Evolutionary Computation (CEC), 2010 IEEE Congress on, Pages 1-6<a></td>
+			<td style="text-align: center;">郭奕浦</td>
+			<td style="text-align: center;">Feb.05</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130205/05586312.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130205_guoyp"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Feb.19 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130219/20130219_yuanhc.pptx" >Jefrey Lijffijt, Panagiotis Papapetrou, Jaakko Hollmen, Vassilis Athitsos. "Benchmarking Dynamic Time Warping for Music Retrieval". PETRA \'10 Proceedings of the 3rd International Conference on PErvasive Technologies Related to Assistive Environments Article No. 59<a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Feb.19</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130219/data.zip"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130219_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Feb.19 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130219/20130219_chency.pptx" >Johann Steinbrecher and Weijia Shang. "On Optimizing The Longest Common Subsequence Problem by Loop Unrolling Along Wavefronts". 2012 20th Euromicro International Conference on Parallel, Distributed and Network-based Processing<a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">Feb.19</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130219/06169647.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130219_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Feb.25 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130225/20130225_hsucj.pptx" >Qingguo Wang, Dmitry Korkin, and Yi Shang. "A Fast Multiple Longest Common Subsequence (MLCS) Algorithm". IEEE Transactions on Knowledge and Data Engineering, Vol. 23, No. 3, March 2011<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Feb.25</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130225/A Fast Multiple Longest Common Subsequence (MLCS) Algorithm.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130225_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Feb.25 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130225/20130225_fangjy.pptx" >L.E. Agust&#305;’n-Blas,&#160;S. Salcedo-Sanz,&#160;,&#160;S. Jimenez-Fernandez,&#160; L. Carro-Calvo,&#160;J. Del Ser,J.A. Portilla-Figueras. "A new grouping genetic algorithm for clustering problems". Expert Systems with Applications 39 (2012) 9695–9703<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Feb.25</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130225/1-s2.0-S0957417412004125-main.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130225_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Feb.25 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130225/20130225_shiujj.pptx" >E. Dahlhausl, D. S. Johnson, C, H. Papadimitriou P. D. Seymour, and M. Yannakakis. "The Complexity of Multiway Cuts". Proceeding STOC \'92 Proceedings of the twenty-fourth annual ACM symposium on Theory of computing Pages 241-251 <a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Feb.25</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130225/The Complexity of Multiway Cuts.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130225_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Mar.05 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130305/20130305_tsengct.pptx" >Arne Andersson and Mikkel Thorup. "Dynamic Ordered Sets with Exponential Search Trees". Journal of the ACM, Vol. 54,  No. 3, Article 13, 2007 <a></td>
+			<td style="text-align: center;">曾球庭</td>
+			<td style="text-align: center;">Mar.05</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130305/Ande07.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130305_tsengct"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Mar.05 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130305/20130305_leech.pptx" >Liming Zhang, Na Liu, Pengyi Yu. "A Novel Instantaneous Frequency Algorithm and Its Application in Stock Index Movement Prediction". IEEE JOURNAL OF SELECTED TOPICS IN SIGNAL PROCESSING, VOL. 6, NO. 4, AUGUST 2012<a></td>
+			<td style="text-align: center;">李承翰</td>
+			<td style="text-align: center;">Mar.05</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130305/A Novel Instantaneous Frequency Algorithm and Its Application in Stock Index Movement Prediction.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130305_leech"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Mar.12 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130312/20130312_horcy.ppt" >Yunqi Li, Yaping Fang and Jianwen Fang. "Predicting residue–residue contacts using random forest models". Bioinformatics, Vol. 27, No. 24, pp. 3379–3384, 2011<a></td>
+			<td style="text-align: center;">何秋誼</td>
+			<td style="text-align: center;">Mar.12</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130312/Predicting residue-Vresidue contacts using random forest models.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130312_horcy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Mar.12 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130312/20130312_yuanhc.pptx" >Luis Taria, Chitta Barala, Seungchan Kima. "Fuzzy c-means clustering with prior biological knowledge". Journal of Biomedical Informatics vol.42,&#160; pp.74-81, 2009<a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Mar.12</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130312/Fuzzy c-means clustering with prior biological knowledge.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130312_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Mar.18 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130318/20130318_guoyp.pptx" >Hui Wang (王暉). "All Common Subsequences". Proceedings of the 20th international joint conference, 2007<a></td>
+			<td style="text-align: center;">郭奕浦</td>
+			<td style="text-align: center;">Mar.18</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130318/IJCAI07-101.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130318_guoyp"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Mar.18 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130318/20130318_hsucj.pptx" >Sukhdev Singh Gangwar, Sanjay Kumar. "Partitions based computational method for high-order fuzzy time series forecasting". Expert Systems with Applications 39 (2012) 12158–12164<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Mar.18</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130318/Partitions based computational method for high-order fuzzy time series forecasting.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130318_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Mar.18 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130318/20130318_fangjy.pptx" >Chi-Yuan Yeh, Wen-Pin Su, Shie-Jue Lee. "An ef&#64257;cient multiple-kernel learning for pattern classi&#64257;cation". Expert Systems with Applications 40 (2013) 3491–3499<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Mar.18</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130318/An efficient multiple-kernel learning for pattern classification.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130318_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Mar.25 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130325/20130325_chenhh.pptx" >G. E. Hinton and R. R. Salakhutdinov. "Reducing the Dimensionality of Data with Neural Networks". Science, Vol. 313, pp. 504–507, 2006<a></td>
+			<td style="text-align: center;">陳紘昕</td>
+			<td style="text-align: center;">Mar.25</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130325/vincent08_Extracting and composing robust features with denoising autoencoders.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130325_chenhh"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Apr.09 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130409/20130409_leech.pptx" >Akbar Esfahanipour , Somayeh Mousavi. "A genetic programming model to generate risk-adjusted technical trading rules in stock markets". Expert Systems with Applications 38 (2011) 8438–8445<a></td>
+			<td style="text-align: center;">李承翰</td>
+			<td style="text-align: center;">Apr.09</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130409/A genetic programming model to generate risk-adjusted technical.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130409_leech"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Apr.09 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130409/20130409_hsucj.pptx" >Giuseppe Pirlo and Donato Impedovo. "Adaptive Score Normalization for Output Integration in Multiclassifier Systems". IEEE Signal Processing Letters, Vol. 19, No. 12, December 2012<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Apr.09</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130409/Adaptive Score Normalization for Output Integration in Multiclassifier Systems.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130409_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Apr.09 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130409/20130409_yuanhc.pptx" >Jakob Zscheischler, Miguel D. Mahecha, Stefan Harmeling. "Climate classifications: the value of unsupervised clustering". Procedia Computer Science vol.9,&#160; pp. 897-906, 2012<a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Apr.09</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130409/Climate classifications - the value of unsupervised clustering.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130409_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Apr.15 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130415/20130415_shiujj.pptx" >Vincent S. Tseng, Chun-Hao Chen, Pai-Chieh Huang, Tzung-Pei Hong. "Cluster-based Genetic Segmentation of Time Series with DWT". Pattern Recognition Letters 30 (2009) 1190–1197<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Apr.15</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130415/Cluster-based genetic segmentation of time series with DWT.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130415_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Apr.23 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130423/20130423_hsucj.pptx" >R. Modugno, G. Pirlo and D. Impedovo. "Score Normalization by Dynamic Time Warping". Conference on Computational Intelligence for Measurement Systems and Applications (CIMSA), 2010 IEEE International<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Apr.23</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130423/Score Normalization by Dynamic Time Warping.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130423_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Apr.23 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130423/20130423_fangjy.pptx" >&#160;T. Uno and M. Yagiura. "Fast algorithms to enumerate all common intervals of two permutations". Algorithmica, 26:290-309, 2000<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Apr.23</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130423/Uno00_Fast algorithms to enumerate all common intervals of two permutations .pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130423_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Apr.30 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130430/20130430_chency.pptx" >Steffen Heber, Jens Stoye. "Finding all Common Intervals of k Permutation". Lecture Notes in Computer Science, 2089: 207–218, 2001<a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">Apr.30</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130430/10.1.1.23.1512.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130430_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Apr.30 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130430/20130430_fangjy.pptx" > T. Uno and M. Yagiura. "&#160;Fast algorithms to enumerate all common intervals of two permutations". Algorithmica, 26:290-309, 2000<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Apr.30</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130430/Uno00_Fast algorithms to enumerate all common intervals of two permutations .pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130430_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Apr.30 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130430/20130430_shiujj.ppt" >Amihood Amir,  Alberto Apostolico, Gad M. Landau,  Giorgio Satta. "Efficient Text Fingerprinting via Parikh Mapping". Journal of Discrete Algorithms 1 (2003) 409–421<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Apr.30</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130430/Efficient text fingerprinting via Parikh mapping.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130430_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- May.07 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130507/20130507_yuanhc.pptx" >Thomas Schmidt, and Jens Stoye. "Quadratic Time Algorithms for Finding Common Intervals in Two and More Sequences". Lecture Notes in Computer Science vol.3109,&#160; pp. 347-358, 2004<a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">May.07</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130507/Quadratic Time Algorithms for Finding Common Intervals in Two and More Sequences.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130507_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- May.07 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130507/20130507_hsucj.pptx" >Mihai Pop. "Genome assembly reborn: recent computational challenges". Briefings in Bioinformatics, Volume 10, Issue 4, Pp. 354-366, 2009<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">May.07</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130507/Pop09_Genome assembly reborn- recent computational challenges.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130507_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- May.07 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130507/20130507_guoyp.pptx" >Jason R. Miller, Arthur L. Delcher, Sergey Koren, Eli Venter, Brian P. Walenz, Anushka Brownley, Justin Johnson, Kelvin Li, Clark Mobarry and Granger Sutton. "Aggressive Assembly of Pyrosequencing Reads with Mates". Bioinformatics vol. 24 no. 24 2008, pages 2818–2824<a></td>
+			<td style="text-align: center;">郭奕浦</td>
+			<td style="text-align: center;">May.07</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130507/Miller08_Aggressive assembly of pyrosequencing reads with mates.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130507_guoyp"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- May.14 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130514/20130514_fangjy.pptx" >Amihood Amir, Leszek Gasieniec, Riva Shalom . "Improved approximate common interval". Information Processing Letters 103 (2007) 142–149<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">May.14</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130514/Amir07_Improved approximate common interval.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130514_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- May.14 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130514/20130514_leech.pptx" >Steven L. Salzberg, Adam M. Phillippy, Aleksey Zimin, Daniela Puiu, Tanja Magoc, Sergey Koren, Todd J. Treangen, Michael C. Schatz, Arthur L. Delcher, Michael Roberts, Guillaume Marcxais, Mihai Pop, and James A. Yorke. "GAGE: A critical evaluation of genome assemblies and assembly algorithms". Genome Res 2012, 22:557-567<a></td>
+			<td style="text-align: center;">李承翰</td>
+			<td style="text-align: center;">May.14</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130514/Salzberg12_GAGE- A critical evaluation of genome assemblies and assembly algorithm.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130514_leech"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- May.14 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130514/20130514_shiujj.pptx" >Anne Bergeron, Cedric Chauve, Fabien de Montgolfier, and Mathieu Raffinot. "Computing Common Intervals of K Permutations, with Applications to Modular Decomposition of Graphs". Proc. 13th Annual European Symposium on Algorithms, in Lecture Notes in Comput. Sci LNCS 3669, pp. 779–790, 2005.<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">May.14</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130514/computer common interval.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130514_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- May.22 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130522/20130522_hsucj.pptx" >Yu-bin Zhong(鍾育彬) and Yi Xiang. "Research and Application of Parallel Fuzzy Dynamic Time Warping Algorithm in Music Retrieval". Fuzzy Engineering and Operations Research, Advances in Intelligent and Soft Computing Volume 147, 2012, pp. 505-513<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">May.22</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130522/Research and Application of Parallel Fuzzy Dynamic Time Warping Algorithm in Music Retrieval.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130522_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- June 05 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130605/20130605_horcy.ppt" >Adam M Gustafson, Evan S Snitkin, Stephen CJ Parker, Charles DeLisi and Simon Kasif. "Towards the identification of essential genes using targeted genome sequencing and comparative analysis". BMC Genomics 2006, 7:265<a></td>
+			<td style="text-align: center;">何秋誼</td>
+			<td style="text-align: center;">June 05</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130605/1471-2164-7-265.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130605_horcy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- June 05 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130605/20130605_yuanhc.pptx" >呂威甫、陳彥嘉. "A Simple Algorithm for Finding Gene Clusters". 2009年資訊科技國際研討會論文集<a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">June 05</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130605/A simple algorithm for finding gene clusters.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130605_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- June 11 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130611/20130611_fangjy.pptx" >Yi-Ching Liaw(廖怡欽). "Improvement of the fast exact pairwise-nearest-neighbor algorithm". Pattern Recognition 42(2009) pp. 867 -870 <a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">June 11</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130611/1-s2.0-S0031320308004172-main.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130611_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- June 11 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130611/20130611_chency.pptx" >Ruiqiang Li(李瑞強), Chang Yu, Yingrui Li, Tak-Wah Lam, Siu-Ming Yiu, Karsten Kristiansen and Jun Wang. "SOAP2: an improved ultrafast tool for short read alignment". Bioinformatics (2009) 25 (15): 1966-1967. <a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">June 11</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130611/Li09_SOAP2- an improved ultrafast tool for short read alignment.pdf.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130611_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- June 18 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130618/20130618_chenhh.pptx" >"Stock selection, prediction and asset allocation"<a></td>
+			<td style="text-align: center;">陳紘昕</td>
+			<td style="text-align: center;">June 18</td>
+			
+			<td><a><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130618_chenhh"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- June 25 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130625/20130625_hsucj.pptx" >Jesse Kornblum. "Identifying almost identical files using context triggered piecewise hashing". Digital Investigation 3S (2006) S91–S97<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">June 25</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130625/12-Kornblum.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130625_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- June 25 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130625/20130625_shiujj.pptx" >Yu Liu(劉宇), Zheng Qin(覃征), Zhewen Shi(史哲文), Jiang Lu. "Center Particle Swarm Optimization". Neurocomputing 70 (2007) 672-679<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">June 25</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130625/center particle swarm optimization.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130625_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- June 25 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130625/20130625_leech.pptx" >Chien-Feng Huang (黃健&#23791;). "A hybrid stock selection model using genetic algorithms and support vector regression". Applied Soft Computing 12 (2012) 807–818<a></td>
+			<td style="text-align: center;">李承翰</td>
+			<td style="text-align: center;">June 25</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130625/A hybrid stock selection model using genetic algorithms.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130625_leech"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- July 02 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130702/20130702_fangjy.pptx" >Lin-Yu Tseng(曾怜玉) and Chun Chen. "Multiple Trajectory Search for Large Scale Global Optimization". 2008 IEEE Congress on Evolutionary Computation (CEC 2008)<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">July 02</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130702/tseng08mts.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130702_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- July 02 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130702/20130702_guoyp.pptx" >Mateusz Pawlik and Nikolaus Augsten. "RTED: A Robust Algorithm for the Tree Edit Distance". The Proceedings of the VLDB Endowment (PVLDB) Volume 5 Issue 4, December 2011 Pages 334-345<a></td>
+			<td style="text-align: center;">郭奕浦</td>
+			<td style="text-align: center;">July 02</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130702/1201.0230.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130702_guoyp"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- July 02 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130702/20130702_chency.pptx" >Annie Chateau, Pierre Riou, Eric Rivals. "Approximate Common Intervals in Multiple Genome Comparison". 2011 IEEE International Conference on Bioinformatics and Biomedicine<a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">July 02</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130702/06120422.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130702_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- July 08 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130708/20130708_shiujj.pptx" >James B. Orlin, Kamesh Madduri, K. Subramani,  M. Williamson . "A Faster Algorithm for the Single Source Shortest Path Problem with Few Distinct Positive Lengths". Journal of Discrete Algorithms 8 (2010) 189–198<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">July 08</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130708/A faster algorithm for the single source shortest path problem with few distinct positive lengths.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130708_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- July 08 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130708/20130708_hsucj.pptx" >Thanawin Rakthanmanon, Bilson Campana, Abdullah Mueen, Gustavo Batista, Brandon Westover, Qiang Zhu, Jesin Zakaria, Eamonn Keogh. "Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping". Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining Pages 262-270, 2012 <a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">July 08</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130708/Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130708_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- July 08 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130708/20130708_yuanhc.pptx" >Chun-Wei Lin, Tzung-Pei Hong, Wen-Hsiang Lu. "Linguistic data mining with fuzzy FP-trees". Expert Systems with Applications, vol. 37, issue 6, pp. 4560–4567, 2010 <a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">July 08</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130708/2010 Linguistic data mining with fuzzy FP-trees.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130708_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 06 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130806/20130806_leech.pptx" >Wei Yan, Christopher D. Clack. "Evolving Robust GP Solutions for Hedge Fund Stock Selection in Emerging Markets". Soft Computing, 2011<a></td>
+			<td style="text-align: center;">李承翰</td>
+			<td style="text-align: center;">Aug. 06</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130806/Evolving Robust GP Solutions for Hedge Fund Stock Selection in Emerging Markets.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130806_leech"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 06 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130806/20130806_shiujj.pptx" >Dongxia Chang(常冬霞), Yao Zhao(趙耀), Changwen Zheng(鄭昌文), Xianda Zhang. "A genetic clustering algorithm using a message-based similarity measure". Expert Systems with Applications 39 (2012) 2194–2202<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Aug. 06</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130806/A genetic clustering algorithm using a message-based similarity measure.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130806_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 06 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130806/20130806_fangjy.pptx" >Yishi Zhang, Shujuan Li, Teng Wang, Zigang Zhang. "Divergence-based feature selection for separate classes". Neurocomputing 101(2013) 32-42<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Aug. 06</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130806/1-s2.0-S0925231212006054-main.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130806_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 13 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130813/20130813_guoyp.pptx" >Youhei Namiki, Takashi Ishida, Yutaka Akiyama. "Acceleration of sequence clustering using longest common subsequence filtering". The 2012 International Conference on Intelligent Computing Huangshan, China. 25-29 July 2012<a></td>
+			<td style="text-align: center;">郭奕浦</td>
+			<td style="text-align: center;">Aug. 13</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130813/1471-2105-14-S8-S7.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130813_guoyp"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 13 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130813/20130813_yuanhc.pptx" >Xin Li, Zhi-Hong Deng. "Mining frequent patterns from network flows for monitoring network". Expert Systems with Applications vol.37 (2010) pp.8850–8860<a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Aug. 13</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130813/532.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130813_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 13 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130813/20130813_chency.pptx" >Philip Koopman. "32-Bit Cyclic Redundancy Codes for Internet Applications". egular paper to appear in The International Conference on Dependable Systems and Networks (DSN) 2002<a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">Aug. 13</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130813/dsn02_koopman.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130813_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 20 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130820/20130820_hsucj.pptx" >Daniel Gordon, Danny Hendler, Lior Rokach. "Fast Randomized Model Generation for Shapelet-Based Time Series Classification". arXiv:1209.5038v1 [cs.LG] 23 Sep 2012, CoRR. 2012. <a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Aug. 20</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130820/Fast Randomized Model Generation for Shapelet-Based Time Series Classification.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130820_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 20 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130820/20130820_choucy.pptx" >Binghang Liu, Jianying Yuan, Siu-Ming Yiu, Zhenyu Li, Yinlong Xie, Yanxiang, Chen, Yujian Shi, Hao Zhang, Yingrui Li, Tak-Wah Lam, and Ruibang Luo. "COPE: An accurate k-mer based pair-end reads connection tool to facilitate genome assembly". Bioinformatics , Vol. 28, No. 22, 2012, pp. 2870-2874 <a></td>
+			<td style="text-align: center;">周展億</td>
+			<td style="text-align: center;">Aug. 20</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130820/Bioinformatics-2012-Liu-bioinformatics_bts563.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130820_choucy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 20 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130820/20130820_guogc.pptx" >Douglas Summers-Stay, Ching Lik Teo, Yezhou Yang(楊葉舟), Cornelia Fermuller and Yiannis Aloimonos. "Using a Minimal Action Grammar for Activity Understanding in the Real World". Intelligent Robots and Systems (IROS), 2012 IEEE/RSJ International Conference on<a></td>
+			<td style="text-align: center;">郭冠呈</td>
+			<td style="text-align: center;">Aug. 20</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130820/Using a Minimal Action Grammar for Activity Understanding in the Real World.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130820_guogc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 27 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130827/20130827_fangjy.pptx" >Hua Jiang, Shenghe Yi, Jing Li, Fengqin Yang, Xin Hu "Ant clustering algorithm with K-harmonic means clustering". Expert Systems with Applications 37 (2010) 8679–8684<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Aug. 27</td>
+			
+			<td><a><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130827_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 27 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130827/20130827_horcy.ppt" >Yuhao Wang and Jianyang Zeng. "Predicting drug-target interactions using restricted Boltzmann machines". Bioinformatics 2012, Vol. 29, pp. i126-i134<a></td>
+			<td style="text-align: center;">何秋誼</td>
+			<td style="text-align: center;">Aug. 27</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130827/Predicting drug-target interactions using restricted Boltzmann machines.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130827_horcy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Aug. 27 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130827/20130827_shiujj.pptx" >Melike Sah and Konstantin Y.Degtiarev, MIEEE. "Forecasting Enrollment Model Based on First-Order Fuzzy Time Series". World Academy of Science, Engineering and Technology 1 2007<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Aug. 27</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130827/Forecasting Enrollment Model Based on First-Order Fuzy Time Series.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130827_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Sept. 10 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130910/20130910_chenhh.pptx" >Jonathan Richard Shewchuk. "An Introduction to the Conjugate gradient method without the agonizing pain". Technical&#160;Report, 1994<a></td>
+			<td style="text-align: center;">陳紘昕</td>
+			<td style="text-align: center;">Sept. 10</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130910/painless-conjugate-gradient.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130910_chenhh"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Sept. 10 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130910/20130910_yuanhc.pptx" >Selim Mimaroglu, Ertunc Erdil. "Combining multiple clusterings using similarity graph". Pattern Recognition vol. 44 pp.694–703 (2011) <a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Sept. 10</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130910/Combining multiple clusterings using similarity graph.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130910_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Sept. 10 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130910/20130910_chency.pptx" >Shinsuke Hara, Ramjee Prasad. "Overview OF Multicarrier CDMA". IEEE Communications Magazine December 1997<a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">Sept. 10</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130910/00642841.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130910_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Sept. 16 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130916/20130916_fangjy.pptx" >Lin-Yu Tseng, Hsuan-Hung Lin. "Prediction of disulfide bonding pattern based on a support vector machine and multiple trajectory search". Information Sciences 199 (2012)  pp. 167–178<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Sept. 16</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130916/1-s2.0-S0020025512001533-main.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130916_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Sept. 16 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130916/20130916_shiujj." >Md. RafiulHassan. "A combination of hidden Markov model and fuzzy model for stock market forecasting". Neurocomputing 72 (2009) 3439–3446<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Sept. 16</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130916/A combination of hidden Markov model and fuzzy model for stock market forecasting.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130916_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Sept. 16 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130916/20130916_hsucj.pptx" >Yanping Chen, Bing Hu, Eamonn Keogh, Gustavo E.A.P.A Batista. "DTW-D: Time Series Semi-Supervised Learning from a Single Example". Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining, Pages 383-391, 2013 <a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Sept. 16</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/130916/DTW-D Time Series Semi-Supervised Learning from a Single Example.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/130916_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 08 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131008/20131008_taicc.pptx" >Shashi B. Pandit and Jeffrey Skolnick. "TASSER_low-zsc: An approach to improve structure prediction using low z-score–ranked templates". PROTEINS: Structure, Function, and Bioinformatics, <a></td>
+			<td style="text-align: center;">戴君潔</td>
+			<td style="text-align: center;">Oct. 08</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131008/TASSER.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131008_taicc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 08 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131008/20131008_yuanhc.pptx" >Shiyan Hu. "A linear time algorithm for max-min length triangulation of a convex polygon". Information Processing Letters vol. 101 pp.203–208 (2007) <a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Oct. 08</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131008/A linear time algorithm for max-min length triangulation.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131008_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 08 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131008/20131008_shiujj.pptx" >Abdusselam Altunkaynak, Mehmet Ozger. "Temporal significant wave height estimation from wind speed by perceptron Kalman filtering". Ocean Engineering 31 (2004) 1245–1255<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Oct. 08</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131008/Temporal significant wave height estimation from wind speed by perceptron Kalman filtering.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131008_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 15 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131015/20131015_guogc.pptx" >Lei Wang, Xiaodong Wang. "A Comparative Study on the Algorithms for a Generalized Josephus Problem". Applied Mathematics & Information Science; July 2013, Vol.7 Issue 4, p1451-1457<a></td>
+			<td style="text-align: center;">郭冠呈</td>
+			<td style="text-align: center;">Oct. 15</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131015/A Comparative Study on the Algorithms for a Generalized Josephus Problem.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131015_guogc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 15 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131015/20131015_chency.pptx" >Victor Shoup . "New Algorithms for Finding Irreducible Polynomials over Finite Fields". Foundations of Computer Science, 1988., 29th Annual Symposium on<a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">Oct. 15</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131015/download;jsessionid=EEEBBC696970D4E831653BDA07B88BFC.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131015_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 22 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131022/20131022_horcy.ppt" >DAVID M.J. TAX and ROBERT P.W. DUIN. "Support Vector Data Description". Machine Learning, 54, pp. 45–66, 2004<a></td>
+			<td style="text-align: center;">何秋誼</td>
+			<td style="text-align: center;">Oct. 22</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131022/Support Vector Data Description.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131022_horcy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 22 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131022/20131022_choucy.pptx" >Qian Chen, Guyu Hu, Fanglin Gu, Peng Xiang. "Learning Optimal Warping Window Size of DTW for Time Series Classification". Information Science, Signal Processing and their Applications (ISSPA), 2012 11th International Conference p.1272 – p.1277<a></td>
+			<td style="text-align: center;">周展億</td>
+			<td style="text-align: center;">Oct. 22</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131022/Learning optimal warping window size of DTW for time series classification.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131022_choucy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 22 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131022/20131022_hsucj.pptx" >David Clifford, Glenn Stone, Ivan Montoliu, Serge Rezzi, Francois-Pierre Martin, Philippe Guy, Stephen Bruce, and Sunil Kochhar. "Alignment Using Variable Penalty Dynamic Time Warping". Analytical Chemistry, Vol. 81, No. 3, February 1, 2009<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Oct. 22</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131022/Alignment Using Variable Penalty Dynamic Time Warping.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131022_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 29 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131029/20131029_fangjy.pptx" >Gert Cauwenberghs , Tomaso Poggio. "Incremental and Decremental Support Vector Machine Learning". Neural Information Processing Systems (2000), pp. 409-415<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Oct. 29</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131029/Incremental and Decremental Support Vector.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131029_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 29 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131029/20131029_shiujj.pptx" >Haneen Talal Al-wazan, Kais Ismail Ibraheem, and Abdul Ghafoor Jasim Salim . "A Hybrid Algorithm to Forecast Enrolment Based on Genetic Algorithms and Fuzzy Time Series". International Arab Journal of Information Technology ISSN 2309-4524(2013)<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Oct. 29</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131029/A Hybrid Algorithm to Forecast Enrolment Based.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131029_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Oct. 29 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131029/20131029_yuanhc.pptx" >Shuiguang Deng, Yifei Xu, Li Li, Xiaoli Li, Yong He. "A feature-selection algorithm based on Support Vector Machine-Multiclass for hyperspectral visible spectral analysis". Journal of Food Engineering vol. 119 pp.159–166 (2013) <a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Oct. 29</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131029/A feature-selection algorithm based on Support Vector Machine-Multiclass for hyperspectral visible spectral analysis.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131029_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Nov. 05 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131105/20131105_chenhh.pptx" >Peter R. Hansen, Asger Lunde, and James M. Nason. "The Model Confidence Set". Econometrica, Vol. 79, No.2, pp. 453-497, 2011<a></td>
+			<td style="text-align: center;">陳紘昕</td>
+			<td style="text-align: center;">Nov. 05</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131105/Hansen11_The Model Confidence Set.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131105_chenhh"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Nov. 05 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131105/20131105_huangty.pptx" >R.J. Kuo , L.M. Lin. "Application of a hybrid of genetic algorithm and particle swarm optimization algorithm for order clustering". Decision Support Systems 49 (2010) 451–462<a></td>
+			<td style="text-align: center;">黃鼎耀</td>
+			<td style="text-align: center;">Nov. 05</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131105/1-s2.0-S0167923610000953-main.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131105_huangty"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Nov. 12 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131112/20131112_chency.pptx" >Martin Claus, Matthias Bernt and Martin Middendorf. "A Common Interval Guided ACO Algorithm for Permutation Problems". 2013 IEEE Symposium on Swarm Intelligence (SIS)64-71<a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">Nov. 12</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131112/06615160.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131112_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Nov. 12 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131112/20131112_hsucj.pptx" >Vladimir Kurbalija, Milo&#353; Radovanovi&#263;, Zoltan Geler, and Mirjana Ivanovi&#263;. "The Influence of Global Constraints on DTW and LCS Similarity Measures for Time-Series Databases". Third International Conference on Software, Services and Semantic Technologies S3T 2011 Advances in Intelligent and Soft Computing Volume 101, 2011, pp 67-74<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Nov. 12</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131112/The Influence of Global Constraints on DTW and LCS Similarity Measures for Time-Series Databases.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131112_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Nov. 12 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131112/20131112_chants.ppt" >Daren Yu, Xiao Yu , Qinghua Hu, Jinfu Liu, Anqi Wu. "Dynamic time warping constraint learning for large margin nearest neighbor classification". Journal of Information Sciences 181 (2011) 2787–2796<a></td>
+			<td style="text-align: center;">詹德勝</td>
+			<td style="text-align: center;">Nov. 12</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131112/Dynamic time warping constraint learning for large margin nearest neighbor classification.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></td>
+		</tr>
+		<!-- Nov. 19 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131119/20131119_fangjy.pptx" >Hsuan-Hung Lin,Jiin-Chyr Hsu, Yuan-Nian Hsu, Ren-Hao Pan,Yung-Fu Chen, Lin-Yu Tseng. "Disul&#64257;de connectivity prediction based on structural information without a prior knowledge of the bonding state of cysteines". Computers in Biology and Medicine 43 (2013) 1941–1948<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Nov. 19</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131119/1-s2.0-S001048251300259X-main.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131119_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Nov. 19 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131119/20131119_chency.pptx" >Youhei Namiki, Takashi Ishida, Yutaka Akiyama. "Acceleration of sequence clustering using longest common subsequence filtering". From The 2012 International Conference on Intelligent Computing<a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">Nov. 19</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131119/1471-2105-14-S8-S7.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131119_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Nov. 26 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131126/20131126_hsucj.pptx" >D.S. Hirschberg. "A Linear Space Algorithm for Computing Maximal Common Subsequences". Communications of the ACM, Vol. 18, No. 6, pp. 341–343, 1975<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Nov. 26</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131126/A Linear Space Algorithm for Computing Maximal Common Subsequences.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131126_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Nov. 26 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131126/20131126_shiujj.pptx" >DANIEL S. HEIRSCHBERG. "Algorithms for the Longest Common Subsequence Problem". Journal of the Association for Computing Machinery, Vol 24,  No 4, October 1977, pp 664-675<a></td>
+			<td style="text-align: center;">許竣傑</td>
+			<td style="text-align: center;">Nov. 26</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131126/Algorithms for the Longest Common Subsequence Problem.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131126_shiujj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Nov. 26 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131126/20131126_yuanhc.pptx" >James W. Hunt, Thomas G. Szymanski. "A Fast Algorithm for Computing Longest Common Subsequences". Communications of the ACM vol. 20 pp.350–353 (1977) <a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Nov. 26</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131126/a-fast-algorithm-for-computing-longest-common-subsequences.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131126_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.04 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131204/20131204_guogc.pptx" >Weizhong Li and Adam Godzik. "Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences". BIOINFORMATICS APPLICATIONS NOTE, Vol. 22, No. 13, 2006, pp. 1658–1659<a></td>
+			<td style="text-align: center;">郭冠呈</td>
+			<td style="text-align: center;">Dec.04</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131204/Bioinformatics-2006-Li-1658-9.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131204_guogc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.04 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131204/20131204_chency.pptx" >Lloyd ALLISON and Trevor I. DIX . "A BIT-STRING LONGEST-COMMON-SUBSEQUENCE ALGORITHM". Information Processing Letters, Volume 23, Issue 5, 24 November 1986, Pages 305–310<a></td>
+			<td style="text-align: center;">陳慶耀</td>
+			<td style="text-align: center;">Dec.04</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131204/1-s2.0-0020019086900918-main.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131204_chency"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.04 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131204/20131204_huangdy.pptx" >David Sankoff. "Minimal Mutation Trees of Sequences". SIAM Journal on Applied Mathematics,  Vol. 28, No. 1 (Jan., 1975), pp. 35-42<a></td>
+			<td style="text-align: center;">黃鼎耀</td>
+			<td style="text-align: center;">Dec.04</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131204/1975_sankoff.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131204_huangdy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.11 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131211/20131211_chants.pptx" >WILLIAM J. MASEK and MICHAEL S. PATESON. "A Faster Algorithm Computing String Edit Distances". JOURNAL OF COMPUTER AND SYSTEM SCIENCES 20, 18+3,1 (1980)<a></td>
+			<td style="text-align: center;">詹德勝</td>
+			<td style="text-align: center;">Dec.11</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131211/A Faster Algorithm Computing String Edit Distances.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131211_chants"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.11 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131211/20131211_taicc.pptx" >Robert A. Wagner & Michael J. Fischer. "The String-to-String Correction Problem". Journal of the Association for Computing Machinery, vol. 21, No. 1, p.p. 168-173, January 1974<a></td>
+			<td style="text-align: center;">戴君潔</td>
+			<td style="text-align: center;">Dec.11</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131211/The String-to-String Correction Problem.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131211_taicc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.18 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131218/20131218_horcy.ppt" >Ch. Surendhar Reddy, K. Vijayasarathy, E. Srinivas, G. Madhavi Sastry, G. Narahari Sastry. "Homology modeling of membrane proteins: A critical assessment". Computational Biology and Chemistry  Vol.30, 2006, 120–126<a></td>
+			<td style="text-align: center;">何秋誼</td>
+			<td style="text-align: center;">Dec.18</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131218/Homology modeling of membrane proteins.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131218_horcy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.18 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131218/20131218_huangdy.pptx" >David Sankoff. "Minimal Mutation Trees of Sequences". SIAM Journal on Applied Mathematics,  Vol. 28, No. 1 (Jan., 1975), pp. 35-42<a></td>
+			<td style="text-align: center;">黃鼎耀</td>
+			<td style="text-align: center;">Dec.18</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131218/1975_sankoff.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131218_huangdy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.18 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131218/20131218_yuanhc.pptx" >T.F. Smith and M.S. Waterman. "Identification of Common Molecular Subsequences". Journal of Molecular Biology vol. 147 pp. 195-197 (1981) <a></td>
+			<td style="text-align: center;">袁信全</td>
+			<td style="text-align: center;">Dec.18</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131218/Identification of Common Molecular Subsequences.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131218_yuanhc"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.24 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131224/20131224_chenhh.pptx" >GABOR J. SZEKELY, MARIA L. RIZZO AND NAIL K. BAKIROV. "Measuring and Testing Dependence by Correlation". The Annals of Statistics, Vol.35, No. 6, pp.2769-2794, 2007<br />G&Aacute;BOR J. SZ&Eacute;KELY and MARIA L. RIZZO. "The distance correlation t-test of independence in high dimension". Journal of Multivariate Analysis, Vol. 117, pp. 94, 2013.<a></td>
+			<td style="text-align: center;">陳紘昕</td>
+			<td style="text-align: center;">Dec.24</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131224/Szekely.zip"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131224_chenhh"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.24 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131224/20131224_fangjy.pptx" >DAVID MAIER. "The Complexity of Some Problems on Subsequences". Journal of the ACM (JACM) Volume 25 Issue 2, April 1978&#160;<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Dec.24</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131224/The complexity of some problems on subsequences and supersequences.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131224_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.24 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131224/20131224_hsucj.pptx" >William R. Person and David J. Lipman. "Improved tools for biological sequence comparison". Proceedings of the National Academy of Sciences of the United States of America Vol. 85, pp. 2444-2448, April 1988<a></td>
+			<td style="text-align: center;">許哲睿</td>
+			<td style="text-align: center;">Dec.24</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131224/Improved tools for biological sequence comparison.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131224_hsucj"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.30 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131230/20131230_fangjy.ppt" >DAVID MAIER. "The Complexity of Some Problems on Subsequences". Journal of the ACM (JACM) Volume 25 Issue 2, April 1978&#160;Pages 322-336&#160;<a></td>
+			<td style="text-align: center;">方鈞毅</td>
+			<td style="text-align: center;">Dec.30</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131230/p322-maier.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131230_fangjy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr>
+		<!-- Dec.30 -->
+		<tr>
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131230/20131230_choucy.pptx" >Vaclav Chvatal and David Sankoff . "Longest Common Subsequences of Two Random Sequences". Journal of Applied Probability, Vol. 12, No. 2 (Jun., 1975), pp. 306-315<a></td>
+			<td style="text-align: center;">周展億</td>
+			<td style="text-align: center;">Dec.30</td>
+			
+			<td><a href="http://par.cse.nsysu.edu.tw/resource/paper/2013/131230/CS-TR-75-477.pdf"><img style="border: 0px solid; width: 47px;" src="pic1.jpg" /></a></td>
+			
+			<td><a href="http://bio.cse.nsysu.edu.tw/meeting/131230_choucy"><img style="border: 0px solid; width: 46px; height: 32px;" src="video.jpg" /></a></td>
+		</tr><!-- FLAG -->	
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+</tbody>
+</table>
+
+<p align="center">&nbsp; </p>
+
+<?php require("yearList.php"); ?>
+
+</body>
+</html>
