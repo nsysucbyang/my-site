@@ -1,0 +1,97 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Message-Optimal Protocols for Fault-Tolerant Broadcasts/Multicasts in </TITLE>
+<META NAME="Template" CONTENT="C:\PROGRAM FILES\MICROSOFT OFFICE\OFFICE\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+
+<B><FONT SIZE=6><P ALIGN="CENTER">Message-Optimal Protocols for Fault-Tolerant Broadcasts/Multicasts in </P>
+<P ALIGN="CENTER">Distributed Systems with Crash Failures</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT SIZE=5><P ALIGN="CENTER">Hong-Yi Tzeng and Kai-Yeung Siu</P>
+</B></FONT><FONT SIZE=4><P ALIGN="CENTER">IEEE TRANSACTIONS ON COMPUTERS, Vol.44, No. 2,</P>
+<P ALIGN="CENTER">FEB,1995 page:346-352.</P>
+</FONT><B><I><FONT SIZE=5><P ALIGN="JUSTIFY">Abstract</P><DIR>
+
+</B></I></FONT><P ALIGN="JUSTIFY">An essential feature in any fault-tolerant design of distributed systems is a mechanism by which a process can reliably broadcast information to other processes of failures. This paper studies the message complexity of fault-tolerant broadcast protocols in weakly synchronous and totally asynchronous distributed systems with point-to-point communication links, where the system failures are caused by the processes but the communication links are completely reliable. We focus on the number of messages required of any fault-tolerant protocol in failure-free execution. We present protocols that, in an n-process system subject to at most t crash failures where 1&lt;= t &lt; (n-1), guarantee the delivery of a message from any process to other nonfaulty processes. In </P>
+<P ALIGN="JUSTIFY">the absence of crash failure, our protocols require (n+t-1) messages in the weakly synchronous model and (t+1)(n-1-(t/2)) messages in the totally asynchronous model.</P>
+<B><I><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><P ALIGN="JUSTIFY">&nbsp;</P></DIR>
+
+</FONT><FONT SIZE=5><P ALIGN="JUSTIFY">Content:</P>
+</I><P ALIGN="JUSTIFY">Definitions and Notations</P><DIR>
+<DIR>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">In our model, we assume that a set of n processes are connected by a complete point -to-point network such that any two processes can exchange messages directly, but each process can only deliver at most one message to another process at a time. .</P>
+<P ALIGN="JUSTIFY">On this paper we only consider crash failures.</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<B><P ALIGN="JUSTIFY">Crash failures: </B>At any time a process may stop sending and receiving message.</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P ALIGN="JUSTIFY">We now define the problem of reliable broadcast. To facilitate the presentation, we assume that each process p consists of a failure-free write-once storage W(p) which is always available even if p is faulty.</P>
+<P ALIGN="JUSTIFY">A protocol is called a reliable broadcast protocol if it satisfies the following (RB) conditions:</P><DIR>
+<DIR>
+<DIR>
+
+<B><P ALIGN="JUSTIFY">RB1</B>. <B><I>Agreement</B></I> : if any process(correct of faulty) accepts M, all corrects accept M.</P>
+<B><P ALIGN="JUSTIFY">RB2</B>. <B><I>Validity</B></I>: if a process p does not fail while broadcasting M or if any correct process receives M, all nonfaulty processes accept M.</P>
+<B><P ALIGN="JUSTIFY">RB3</B>. <B><I>Integrity</B></I>: For any message M, every process accepts M at most once and only if some process broadcast M.</P>
+<B><P ALIGN="JUSTIFY">RB4</B>. <B><I>Termination</B></I>: The above three conditions RB1.RB2.and RB3.are satisfied eventually.</P></DIR>
+</DIR>
+</DIR>
+
+<P ALIGN="JUSTIFY">A reliable broadcast protocol is said to be <I>t</I>-resilient if it can tolerate up to <I>t</I> crash failures and satisfy all the above conditions.</P>
+</FONT><B><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><P ALIGN="JUSTIFY">&nbsp;</P></DIR>
+
+</FONT><FONT SIZE=5><P ALIGN="JUSTIFY">The Weakly synchronous model.</P>
+</B></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="JUSTIFY">&nbsp;</P><DIR>
+
+</FONT><FONT SIZE=4><P>In the <B>weakly synchronous model</B>, one can assume a constant </FONT><FONT FACE="Symbol" SIZE=4>d</FONT><FONT SIZE=4> such that the processing and delivery of a message can be completed within </FONT><FONT FACE="Symbol" SIZE=4>d</FONT><FONT SIZE=4> units of time.</P></DIR>
+</DIR>
+
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image551.gif" WIDTH=459 HEIGHT=119></P>
+<P ALIGN="CENTER"><IMG SRC="Image202.gif" WIDTH=415 HEIGHT=291></P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P>&nbsp;</P><DIR>
+
+</FONT><B><FONT SIZE=5><P>The Totally asynchronous model.</P>
+</B></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P>&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P><IMG SRC="Image206.gif" ALIGN="LEFT" HSPACE=12 WIDTH=390 HEIGHT=215>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P><IMG SRC="Image205.gif" ALIGN="LEFT" HSPACE=12 WIDTH=366 HEIGHT=287>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P><IMG SRC="Image204.gif" ALIGN="LEFT" HSPACE=12 WIDTH=404 HEIGHT=249>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P></DIR>
+
+</FONT><P ALIGN="JUSTIFY">Created by: Jain-Ming Chen</P>
+<P ALIGN="JUSTIFY">Date:Apr.17, 1997</P></BODY>
+</HTML>
