@@ -1,0 +1,94 @@
+* English Spelling Check
+  %ispell file.tex
+
+* Run Latex with input files "file.tex" and "file.bib"
+(1) latex file[.tex]        
+(2) bibtex file[.bib]
+(3) latex file[.tex]
+(4) latex file[.tex]
+    Note that more than one pass is needed if "bibtex" is executed.
+
+* View
+(1) View dvi file   
+    %xdvi file[.dvi]
+(2) View Postscript file
+    %ghostview file.ps
+  Note the preview must be in the environment of windows.
+  %setenv DISPLAY ibm15:0
+  %xhost +ibm1
+
+* Print a Latex file
+(1) Print all pages of the file
+    %dvipr file[.dvi]      
+(2) Print some pages of the file, e.g. print pages 1,2,3 and 12:
+    %dvipr file[.dvi] 1-3,12
+    Note the printer is SUN Laser Writer
+
+* Select some pages from a .dvi file
+(1) Select some pages from a .dvi file and generate another .dvi file
+    %dviselect 1-3,12 infile.dvi outdile.dvi
+
+* Generate a .ps file
+(1) Generate all pages
+    %dvips file[.dvi]
+(2) Select some pages from a .dvi file and generate a .ps file
+    $dvips -pp 1-3,12 file[.dvi]
+
+* Print a file
+(1) a .ps file on SUN
+    (a) %lpr -Plw file        (Laser printer)
+    (b) %lpr -Pespon file     (Espon printer)
+    (c) %lpr -Papple
+(2) a .ps file on IBM1
+    %lpr file             (dot matrix)
+(3) a .ps file on IBM15
+    (a) %lpr -h -Pcbyang file.ps   (cbyang is a ps printer)
+    (b) %lpr -h file.ps       (default is -Pcbyang) 
+    (c) %enq -Bnn -Pcbyang file.ps
+(4) an ASCII file on IBM15
+    (a) %enq -Bnn -Php file.txt     (hp is an ASCII printer)
+    (b) %enscript file.txt   
+             (first ASCII file to ps file, then to default printer)
+(5) a .ps file on IBM PC with DOS
+    ftp the file to PC, then use a printer with the Postcript capability
+    to print the .ps file.
+(6) a .ps file on IBM PC with Win95
+    (a) same as (5)
+        switch to DOS mode, then use the following command:
+               type file.ps >prn
+    (b) Use a GS(ghostscript) tool
+        Select the 'print' function on the tool.
+
+* Combine Latex with figures drawn by xfig
+(1) Draw a figure by xfig, stored in "file.fig"
+(2) In xfig, "Export" the with orientation "Portrait" and 
+    language "Encapsulated Postscript", stored in "file.eps"
+(3) Specify your document style as
+       \documentstyle[12pt,psfig]{article}. 
+    Add the following lines in the Latex file at the place where
+    the figure will be drawn.
+       \begin{figure}
+       \centerline{\psfig{figure=file.eps,height=2cm,width=3cm}}
+               or \centerline{\includegraphics{file.eps}} %% do not use
+       \caption {The explanation for this figure.}
+       \label{fig:a_lable}
+       \end{figure}
+    ---------------------------------- 
+    The following way also works.
+       \input{epsf.sty}
+       \begin{figure}
+       \epsfbox{file.eps}
+       \end{figure}
+    Note the first line \input{epsf.sty} should appear only once in
+    the Latex file. 
+
+* Adjust top margin
+    If the top of a page is higher than the top margin, then this is the
+    printer configuration problem. You can put the following file in
+    your subdirectory to resolve the problem.
+         config.ps
+    From many experiences, the "slide" subdirectory should have the 
+    above file.
+
+* Delete the working files
+  % /bin/rm -f *.aux *.blg *.dvi *.log *.toc *.idx *.tmp *.ind *.lof *.bbl *.lot

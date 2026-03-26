@@ -1,0 +1,167 @@
+Subject: vi editor
+
+       vi (VISUAL DISPLAY EDITOR)
+       ==========================
+
+       * a text editor
+       * not window-based, and can be used on any kind of terminal
+       * vi commands are case sensitive
+       * modes of vi:
+         command mode -- anything typed is interpreted as a command.
+         input mode   -- anything typed (except esc key) is
+                         interpreted to be raw input.
+
+
+       Starting  vi  (/usr/ucb/vi)
+       ===========================
+
+       %vi  filename
+       When you run vi,  the vi screen will appear in a
+       moment. The cursor appears in the upper lefthand
+       corner of the screen. Blank lines are indicated by
+       a vertical series of ~. The last line of the screen
+       shows the name of the file.
+
+       %vi  +18 filename
+       open file to line 18
+
+       %vi +/"me too"  filename
+       open file to first occurrence of "me too"
+
+       %vi -r filename
+       recover crash file
+
+       %view filename
+       open file read-only
+
+
+       Screen Control Commands
+       =======================
+
+       ctrl-l      reprints current screen
+       ctrl-y      exposes one more line at top of screen
+       ctrl-e      exposes one more line at bottom of screen
+
+
+       Paging Commands
+       ===============
+
+       ctrl-f      pages forward one screen
+       ctrl-b      pages back one screen
+       ctrl-d      pages down half screen
+       ctrl-u      pages up half screen
+
+
+       Cursor Commands
+       ===============
+
+       h           move left
+       j           move down
+       k           move up
+       l           move right
+       w           move right one word
+       b           move left one word
+       $           move to the last character of the current line
+       0           move to the first character of the current line
+       H           move cursor to the top of the screen
+       M           move cursor to the middle of the screen
+       L           move cursor to the bottom of the screen
+       nG          moves cursor to beginning of line n,
+                   default is last line of file
+       Return      move down one line
+       space bar   move right one character
+
+
+       Inserting Characters, Lines, and Files
+       ======================================
+
+       a                insert text to the right of the cursor
+       A                append text to the end of a line
+       i                insert text to the left the cursor
+       I                insert text at the beginning of a line
+       O                open a line above the current cursor.
+       o                open a line below the current cursor.
+       <Esc>            stops text insertion
+       :r filename      read file after cursor
+       :34 r filename   insert file after line 34
+       :n r!command     insert the output of the shell command after line n
+
+
+       Changing Text
+       =============
+
+       C, c$       changes remaining text on current line until
+                   stopped by pressing the escape key
+       cw          changes characters of current word until
+                   stopped by pressing the escape key
+       cc          changes a line, leave a blank line for new text
+       s           substitute string for character under cursor
+       r           replace under cursor with one other character
+       r-Return    break line
+       J           join current line and line below
+       u           undo previous command
+       U           undo all changes to a line
+       ~           change case of current character
+       :u          undo previous last-line command
+       .           repeat the last change to the text
+
+
+       Deleting Text
+       =============
+
+       x          delete one character
+       dw         delete current word(or part of word to right of cursor)
+       ndw        delete n words
+       dd         delete current line
+       dG         delete to the end of the file
+       D, d$      delete from cursor to the end of line
+       P          puts back text from the previous delete
+       :5,10 d    delete lines 5 through 10
+
+
+       Copying and Moving Text
+       =======================
+
+       Y,yy                 yank or copy line
+       p                    put yanked or deleted line below current line
+       P                    put yanked or deleted line above current line
+       :1,3 co 5            copy lines 1 through 3 and put after line 5
+       :7,8 m  9            move lines 7, 8 and put after line 9
+       :50,120 w filename   copy lines 50 through 120 into another file
+       :10,20>> filename    append lines 10 through 20 to another file
+
+
+       Searching Pattern and Replacing
+       ===============================
+
+       /patter       search for string
+       ?pattern      search backward for string
+       n             find next(or previous)occurrence of string
+       /^pattern     match the beginning of a line, start
+                     the search string with a caret ^
+       /pattern$     match the end of a line, end the
+                     search string with a dollar sign $
+       :g/search-pattern/s//replace-pattern/gc
+                     search and replace, consult at each occurrence
+
+
+       Saving and Quitting
+       ===================
+
+       :w            save changes(write buffer)
+       :wq           save changes and quit vi
+       ZZ            save changes and quit vi
+       :q!           quit without saving changes
+
+
+       Miscellaneous
+       =============
+
+       :!command        execute shell command
+       :!!              repeat last shell command
+       :num             show current line number
+       :set  nu         show line number
+       :set  nonu       hide line number
+
+
+
