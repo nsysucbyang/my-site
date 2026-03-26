@@ -1,0 +1,119 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<TITLE>An Algorithm for the Banded Symmetric Generalized Matrix Eigenvalue Problem</TITLE>
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+
+<FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image475.gif" WIDTH=12 HEIGHT=28></FONT><B><FONT SIZE=6>An Algorithm for the Banded Symmetric Generalized Matrix Eigenvalue Problem</P>
+</B></FONT><FONT SIZE=4><P ALIGN="CENTER">Linda Kaufman</P>
+<P ALIGN="CENTER">Siam J. Matrix Anal. Appl., Vol. 14, No. 2, pp.372-389, Apri. 1993</P>
+</FONT><B><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER">&nbsp;</P><DIR>
+
+</FONT><FONT SIZE=5><P>1. Introduction</P></DIR>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">In this paper we consider the generalized eigenvalue problem :</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image476.gif" WIDTH=81 HEIGHT=21></P>
+<P ALIGN="CENTER"><IMG SRC="Image477.gif" WIDTH=282 HEIGHT=24></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">where <IMG SRC="Image478.gif" WIDTH=20 HEIGHT=21>and <IMG SRC="Image479.gif" WIDTH=21 HEIGHT=21>are both symmetric and positive definite <IMG SRC="Image480.gif" WIDTH=48 HEIGHT=18>matrices and both are banded with <IMG SRC="Image481.gif" WIDTH=54 HEIGHT=22>nonzero diagonals. And we can find that if <IMG SRC="Image479.gif" WIDTH=21 HEIGHT=21>is nonsingular then</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image482.gif" WIDTH=92 HEIGHT=22></P>
+<P ALIGN="CENTER"><IMG SRC="Image483.gif" WIDTH=130 HEIGHT=29></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">so</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image484.gif" WIDTH=309 HEIGHT=29></P>
+<OL>
+
+</FONT><FONT SIZE=4><LI>The Martin and Wilkinson method</LI></OL>
+
+<P ALIGN="JUSTIFY">step1. Cholesky factorization of <IMG SRC="Image479.gif" WIDTH=21 HEIGHT=21></P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image485.gif" WIDTH=92 HEIGHT=29></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">then forming</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image486.gif" WIDTH=118 HEIGHT=29></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">reducing <IMG SRC="Image487.gif" WIDTH=21 HEIGHT=22>to tridiagonal form <IMG SRC="Image488.gif" WIDTH=28 HEIGHT=25>, this step requires <IMG SRC="Image489.gif" WIDTH=58 HEIGHT=29>time.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P>&nbsp;</P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">step2. Finding the eigenvalues of the tridiagonal matrix <IMG SRC="Image488.gif" WIDTH=28 HEIGHT=25>, this step require <IMG SRC="Image490.gif" WIDTH=60 HEIGHT=29>time.</P><DIR>
+<DIR>
+
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P><IMG SRC="Image491.gif" WIDTH=20 HEIGHT=30></P></DIR>
+</DIR>
+
+<OL START=2>
+
+</FONT><FONT SIZE=4><LI>The <B>QZ </B>algorithm of Moler and Stewart </LI></OL>
+
+<P ALIGN="JUSTIFY">This algorithm require <IMG SRC="Image489.gif" WIDTH=58 HEIGHT=29>time.</P>
+<OL START=2>
+
+</FONT><B><FONT SIZE=5><LI>The algorithm of Wang and Zhao</LI></OL>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">The algorithm is based on the theorem of Stewart about the singular value decomposition <I>(SVD)</I> of portions of orthogonal matrix. Consider the Cholesky factorization of <IMG SRC="Image478.gif" WIDTH=20 HEIGHT=21>and</FONT><B><FONT SIZE=5> <IMG SRC="Image479.gif" WIDTH=21 HEIGHT=21></P>
+</B></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image492.gif" WIDTH=108 HEIGHT=30></FONT><FONT SIZE=4>(2.1)</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image263.gif" WIDTH=108 HEIGHT=30></FONT><FONT SIZE=4>(2.2)</P>
+<P ALIGN="JUSTIFY">and the <B>QR </B>decomposition</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image416.gif" WIDTH=111 HEIGHT=60></FONT><FONT SIZE=4>(2.3)</P>
+<P ALIGN="JUSTIFY">where <IMG SRC="Image493.gif" WIDTH=20 HEIGHT=25>is a <IMG SRC="Image494.gif" WIDTH=57 HEIGHT=21>matrix with orthonormal columns, <IMG SRC="Image495.gif" WIDTH=20 HEIGHT=21>is upper triangular, and nonsingular.</P>
+<P ALIGN="JUSTIFY">Partition <IMG SRC="Image493.gif" WIDTH=20 HEIGHT=25>into</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image496.gif" WIDTH=84 HEIGHT=64></FONT><FONT SIZE=4>(2.4)</P>
+<P ALIGN="JUSTIFY">from (2.3) and (2.4) we get</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image497.gif" WIDTH=88 HEIGHT=30></FONT><FONT SIZE=4>(2.5)</P>
+<P ALIGN="JUSTIFY">and</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image498.gif" WIDTH=89 HEIGHT=30></FONT><FONT SIZE=4>(2.6)</P>
+<P ALIGN="JUSTIFY">If <IMG SRC="Image499.gif" WIDTH=17 HEIGHT=22>and x satisfy the general eigenvalue problem then from (2.1) and (2.2)</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image500.gif" WIDTH=168 HEIGHT=29></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">and from (2.5), (2.6) implies</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image501.gif" WIDTH=249 HEIGHT=32></FONT><FONT SIZE=4>(2.7)</P>
+<P ALIGN="JUSTIFY">the <B>SVD </B>of <IMG SRC="Image502.gif" WIDTH=24 HEIGHT=28>and <IMG SRC="Image503.gif" WIDTH=25 HEIGHT=28>is</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image504.gif" WIDTH=113 HEIGHT=30></FONT><FONT SIZE=4>(2.8)</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image505.gif" WIDTH=114 HEIGHT=32></FONT><FONT SIZE=4>(2.9)</P>
+<P ALIGN="JUSTIFY">where <IMG SRC="Image506.gif" WIDTH=25 HEIGHT=25>, <IMG SRC="Image507.gif" WIDTH=25 HEIGHT=25>, <IMG SRC="Image508.gif" WIDTH=24 HEIGHT=25>and <IMG SRC="Image509.gif" WIDTH=25 HEIGHT=25>are all orthogonal matrices, <IMG SRC="Image487.gif" WIDTH=21 HEIGHT=22>and <IMG SRC="Image510.gif" WIDTH=18 HEIGHT=22>are diagonal matrices <IMG SRC="Image511.gif" WIDTH=120 HEIGHT=25>, <IMG SRC="Image512.gif" WIDTH=121 HEIGHT=25>.</P>
+<P ALIGN="JUSTIFY">Then because of the orthogonality of the columns of <IMG SRC="Image493.gif" WIDTH=20 HEIGHT=25>in (2.3)</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image513.gif" WIDTH=68 HEIGHT=25></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">and </P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image514.gif" WIDTH=92 HEIGHT=29></FONT><FONT SIZE=4>(2.10)</P>
+<P ALIGN="JUSTIFY">we let <IMG SRC="Image515.gif" WIDTH=66 HEIGHT=28>from (2.7), (2.8) and (2.9)</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image516.gif" WIDTH=334 HEIGHT=29></FONT><FONT SIZE=4>(2.11)</P>
+<P ALIGN="JUSTIFY">letting <IMG SRC="Image517.gif" WIDTH=114 HEIGHT=32>and multiplying both side of (2.11) by <IMG SRC="Image518.gif" WIDTH=60 HEIGHT=29></P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image519.gif" WIDTH=134 HEIGHT=32></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">so</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image520.gif" WIDTH=65 HEIGHT=60></FONT><FONT SIZE=4>(2.12)</P>
+<P ALIGN="JUSTIFY">from (2.10)</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image521.gif" WIDTH=82 HEIGHT=60></FONT><FONT SIZE=4>(2.13)</P><DIR>
+
+<B><P>Algorithm W.Z</P></DIR>
+
+</B><P ALIGN="JUSTIFY">(1)</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image522.gif" WIDTH=93 HEIGHT=30></P>
+<P ALIGN="CENTER"><IMG SRC="Image523.gif" WIDTH=97 HEIGHT=30></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">(2) Let <IMG SRC="Image524.gif" WIDTH=84 HEIGHT=64>find orthogonal transformation <IMG SRC="Image525.gif" WIDTH=105 HEIGHT=25>such that</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image526.gif" WIDTH=186 HEIGHT=62></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">(3)Determine <IMG SRC="Image527.gif" WIDTH=192 HEIGHT=62><IMG SRC="Image475.gif" WIDTH=14 HEIGHT=28>let</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image528.gif" WIDTH=142 HEIGHT=32></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">(4)Reduce <IMG SRC="Image529.gif" WIDTH=20 HEIGHT=21>to bidiagonal form <IMG SRC="Image530.gif" WIDTH=29 HEIGHT=28></P>
+<P ALIGN="JUSTIFY">(5)find the <B>SVD</B> of <IMG SRC="Image530.gif" WIDTH=29 HEIGHT=28>to obtain singular values <IMG SRC="Image531.gif" WIDTH=94 HEIGHT=25>then the eigenvalues given by (2.13) .</P><DIR>
+<DIR>
+<DIR>
+
+<P>step (1) -(4) needs <IMG SRC="Image532.gif" WIDTH=60 HEIGHT=32>time.<IMG SRC="Image491.gif" WIDTH=20 HEIGHT=30></P>
+<P>step (5) need <IMG SRC="Image533.gif" WIDTH=60 HEIGHT=32>time.</P></DIR>
+</DIR>
+</DIR>
+
+<OL START=3>
+
+</FONT><B><FONT SIZE=5><LI>Modifying the Wang-Zhao to tridiagonal matrices</LI></OL>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">3.1 Decreasing the fill-in in <IMG SRC="Image534.gif" WIDTH=21 HEIGHT=21>in step(2) of the W.Z algorithm</P>
+<P ALIGN="JUSTIFY">the <IMG SRC="Image535.gif" WIDTH=36 HEIGHT=28>in W.Z algorithm is</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image536.gif" WIDTH=228 HEIGHT=224></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">where “+” indicates a new nonzero element the <IMG SRC="Image537.gif" WIDTH=36 HEIGHT=28>in W.Z</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image538.gif" WIDTH=225 HEIGHT=224></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">The modified algorithm</P>
+<P ALIGN="JUSTIFY">let <IMG SRC="Image539.gif" WIDTH=121 HEIGHT=25>to get <IMG SRC="Image540.gif" WIDTH=62 HEIGHT=30>, <IMG SRC="Image541.gif" WIDTH=49 HEIGHT=25>is designed to annihilate <IMG SRC="Image540.gif" WIDTH=62 HEIGHT=30>and <IMG SRC="Image542.gif" WIDTH=29 HEIGHT=25>is to annihilate the remaining elements in the ith column below the diagonal.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image543.gif" WIDTH=153 HEIGHT=29><IMG SRC="Image491.gif" WIDTH=20 HEIGHT=30></P>
+<P ALIGN="CENTER"><IMG SRC="Image544.gif" WIDTH=225 HEIGHT=224></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">so step (2) require <IMG SRC="Image545.gif" WIDTH=54 HEIGHT=25>.</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">3.2 Decreasing the fill-in in <IMG SRC="Image546.gif" WIDTH=25 HEIGHT=21>.</P>
+<P ALIGN="JUSTIFY">The same we can decrease step (3) from <IMG SRC="Image547.gif" WIDTH=60 HEIGHT=29>to <IMG SRC="Image548.gif" WIDTH=60 HEIGHT=29><IMG SRC="Image549.gif" WIDTH=20 HEIGHT=32>to get the tridiagonal matrix <IMG SRC="Image550.gif" WIDTH=33 HEIGHT=22></P>
+<P ALIGN="CENTER">Created by: Wen-Yan Tian</P>
+<P ALIGN="CENTER">Date: Apr 17 1997</P></FONT></BODY>
+</HTML>
