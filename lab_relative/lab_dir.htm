@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>平行處理實驗室研究方向簡介</title>
+</head>
+
+<body bgcolor="#00FFFF">
+
+<b><font FACE="標楷體" SIZE="5">
+<p ALIGN="CENTER"><font color="#FF00FF">平行處理實驗室研究方向簡介</font></p>
+</font><font FACE="標楷體" SIZE="4">
+<p ALIGN="JUSTIFY">一、連結網路（</font><font SIZE="4">Interconnection 
+Network</font><font FACE="標楷體" SIZE="4">）</p>
+</font></b><font FACE="細明體" LANG="ZH-TW">
+<p ALIGN="JUSTIFY">平行電腦乃是指具有多個</font> CPU<font FACE="細明體" LANG="ZH-TW">（或稱為處理器）的電腦，可藉由分工合作與同時計算，以加快電腦計算速度，並期快速解決一些計算問題。目前一般所謂「超級電腦」多是平行電腦。其用途相當廣泛，包含天氣預測、車體撞擊測試、甚而核子試爆結果，皆可用其模擬計算。而平行電腦內有多個</font>CPU<font FACE="細明體" LANG="ZH-TW">，以及記憶體模組，該如何連結以利快速交換資料、具擴充性、或具較大的容錯度</font>(<font FACE="細明體" LANG="ZH-TW">以下解釋</font>)<font FACE="細明體" LANG="ZH-TW">，則是連結網路常見的研究課題。連結網路研究的結果亦可應用電腦網路上。</p>
+<p ALIGN="JUSTIFY">連結網路的常見架構有</font>mesh<font FACE="細明體" LANG="ZH-TW">，一種類似棋盤狀的網路架構，除了四邊的節點外，每個節點（代表一個</font>CPU<font FACE="細明體" LANG="ZH-TW">，或是電腦網路上的一部電腦或網站）可與上下左右互相傳遞資料。</font>mesh<font FACE="細明體" LANG="ZH-TW">的變形為，四邊節點亦可與上下左右相連，我們稱之為</font>torus<font FACE="細明體" LANG="ZH-TW">（類似甜甜圈）。較高維度的網路架構有</font>Hypercube<font FACE="細明體" LANG="ZH-TW">（超立方體），其三維架構其實是一個擁有</font>8<font FACE="細明體" LANG="ZH-TW">個節點的立方體。超立方體有許多優良特性，如節點對稱、邊線對稱的性質、非常容易擴充等，因此有許多學者對它進行研究。</font>star 
+graph<font FACE="細明體" LANG="ZH-TW">則是一個較複雜架構，它也擁有許多與超立方體相同的特性。除以上介紹外、尚有許多不同之網路架構，在此便不再一一說明。</font></p>
+<font FACE="細明體" LANG="ZH-TW">
+<p ALIGN="JUSTIFY">評斷一個連結網路的優劣，一般常用下列幾個參數：階度（</font>degree<font FACE="細明體" LANG="ZH-TW">）、直徑（</font>diameter<font FACE="細明體" LANG="ZH-TW">）、繞徑（</font>routing<font FACE="細明體" LANG="ZH-TW">）、廣播（</font>broadcast<font FACE="細明體" LANG="ZH-TW">）、容錯（</font>fault 
+tolerance<font FACE="細明體" LANG="ZH-TW">）等。一般而言，階度較大的網路架構，由於需要較多連線（</font>link<font FACE="細明體" LANG="ZH-TW">），其成本（</font>cost<font FACE="細明體" LANG="ZH-TW">）較高；但是其直徑（最遠兩點的距離）較小，資料交換的速度較快。至於容錯，即指網路中有某些節點或連線故障，系統仍須可以正常運作。容錯較大的網路架構當然是較好的。這些網路參數間，有些彼此矛盾。如何在這些參數間取得一個適當的平衡點，以設計出一個優良的連結網路架構，是目前在平行電腦或電腦網路發展上的一個重要課題。</p>
+</font><font FACE="新細明體" LANG="ZH-TW">
+<p ALIGN="JUSTIFY">　</p>
+</font><b><font FACE="標楷體" SIZE="4">
+<p ALIGN="JUSTIFY">二、資料壓縮</font><font SIZE="4">(Data Compression)</p>
+</font></b><font FACE="細明體" LANG="ZH-TW">
+<p ALIGN="JUSTIFY">資料壓縮（</font>data compression<font FACE="細明體" LANG="ZH-TW">）是減少資料儲存空間或資料傳輸量的一種方式，其應用相當廣泛。資料壓縮可分成兩大種類，有失真壓縮與無失真壓縮。無失真壓縮方法所壓縮的資料經過解壓縮（</font>uncompress<font FACE="細明體" LANG="ZH-TW">）後，還原的資料與壓縮前完全一樣，常用於檔案壓縮。有失真壓縮方法的資料解壓縮（</font>uncompress<font FACE="細明體" LANG="ZH-TW">）後，還原的資料與壓縮前不完全一樣，有些許差異，但影響不大，常用於多媒體資料（如靜態影像、動態影像、聲音等）。</p>
+<p ALIGN="JUSTIFY">如何將資料量變得更小、品質更好、壓縮與反壓縮時間減少，都是資料壓縮所要探討的問題。資料量變小所帶來的利基為減少儲存空間，而使用相同空間可以儲存更多的資料，在網路上的傳送資料所需時間也會減少。有失真資料壓縮的品質的好壞，即指解壓縮後所還原的資料與原始資料的差異性。我們常見的</font>jpeg<font FACE="細明體" LANG="ZH-TW">、</font>mpeg<font FACE="細明體" LANG="ZH-TW">、</font>gif<font FACE="細明體" LANG="ZH-TW">檔案，是現今電腦上常用的一些標準壓縮規格。</p>
+<p ALIGN="JUSTIFY">我們可以應用數學上的理論，將影像作有效率的壓縮。向量量化（</font>VQ<font FACE="細明體" LANG="ZH-TW">，</font>Vector 
+Quantization<font FACE="細明體" LANG="ZH-TW">）、小波</font>(wavelet)<font FACE="細明體" LANG="ZH-TW">壓縮、碎形</font>(fractal)<font FACE="細明體" LANG="ZH-TW">壓縮，為近來較為熱門的壓縮方法，目前仍有不少研究者在鑽研這些壓縮技術的改進。而好的壓縮方法就可能成為新一代壓縮的標準，例如，小波壓縮已經被規範為</font>JPEG 
+2000<font FACE="細明體" LANG="ZH-TW">的壓縮標準。</p>
+<p ALIGN="JUSTIFY">本實驗室的未來探討研究方向，大致為下面幾項：</p>
+<ol>
+  <li>將現行的壓縮方法實際應用於網路上面，使得傳輸更有效率。</li>
+  <li>將現行的壓縮方法進行改良，使得影像資料量可以更小，壓縮與解壓縮所花費的時間更少，但仍保持相當的良好品質。</li>
+  <li>將現行的壓縮方法簡化，使其可以單獨做成一個晶片。</li>
+  <li>尋找新的影像壓縮方法。</li>
+  <li>將資料壓縮方法平行化，以加快其壓縮解壓縮之速度。</li>
+</ol>
+<p ALIGN="JUSTIFY">　</p>
+</font><b><font FACE="標楷體" SIZE="4">
+<p ALIGN="JUSTIFY">三、計算生物（</font><font SIZE="4">Computational 
+Biology</font><font FACE="標楷體" SIZE="4">）</p>
+</font></b><font FACE="細明體" LANG="ZH-TW">
+<p
+ALIGN="JUSTIFY">生物科技與基因工程在最近幾年來非常的熱門。以分子的角度去看，構成生命的主角為胺基酸與蛋白質。簡單的說，生物的種類與它所有的特質是由蛋白質所決定，而蛋白質中的胺基酸則帶有組成此蛋白質的密碼。我們常聽到的</font>DNA<font
+FACE="細明體" LANG="ZH-TW">與</font>RNA<font FACE="細明體"
+LANG="ZH-TW">是核酸的兩個種類，而基因就是帶有生命密碼的核酸片段。</p>
+<p ALIGN="JUSTIFY">雖然生物乍看起來不是很複雜，但基因組裡面基因的數量卻非常的龐大，人類的基因數量大概是</font>30<font FACE="細明體" LANG="ZH-TW">億</font>(3*10^9)<font FACE="細明體" LANG="ZH-TW">個鹼基對</font>(base 
+pairs)<font FACE="細明體" LANG="ZH-TW">。這麼大量的資料必須藉助電腦進行處理。計算生物</font>(<font FACE="細明體" LANG="ZH-TW">或稱之為生物資訊，</font>bioinformatics)<font FACE="細明體" LANG="ZH-TW">的研究領域為結合分子生物、數學、統計學與計算機科學的知識，藉由電腦科技的幫助，進行運算分析，以協助解決生物學上的諸多問題。為了使運算與分析能快速進行，演算法扮演非常重要角色。故在計算生物領域中，演算法為一重要的研究方向。</p>
+<p ALIGN="JUSTIFY">計算生物領域相關問題舉例如下：</p>
+<ol>
+</font>
+<li>Sequence Alignment<font FACE="細明體" LANG="ZH-TW">找出兩個或多個物種間相類似或不同的基因段，以便於對各物種相同或不同特性進行研究。</li>
+  <li>演化樹重建問題為在給予多個物種的基因情況下，找出可能的演化樹（</font>evolution 
+  tree<font FACE="細明體" LANG="ZH-TW">）</font>(<font FACE="細明體" LANG="ZH-TW">演化樹代表物種演化的過程），亦可對於各物種加以分類。計算生物是對基因進行分析並加以分類，這與傳統生物學以特徵作為物種分類的方法不同。</li>
+  <li>基因定序，是藉由基因重組與片段結合的方法來完成</li>
+  <li>蛋白質結構預測以及各類蛋白質功能預測</li>
+  <li>資料庫的研究與應用，可以將大量的資料做有效存取與利用，以利研究之進行。</li>
+  <li>將計算生物的演算法，加以平行化，以加快處理速度。</li>
+</ol>
+</font>
+
+</body>
+
+</html>
