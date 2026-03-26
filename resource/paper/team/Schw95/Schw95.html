@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Optimal Fully Adaptive Minimal Wormhole Routing for Meshes</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<B><FONT SIZE=6><P ALIGN="CENTER">Optimal Fully Adaptive Minimal Wormhole Routing for Meshes</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT SIZE=4><P ALIGN="CENTER">Loren Schwiebert and D.N.Jayasimha</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">Journal of Parallel and Distributed Computing Vol. 27,pp.56-70,1995</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT SIZE=5><P ALIGN="JUSTIFY">Abstract</P>
+<P ALIGN="JUSTIFY">&#9;</B></FONT><FONT SIZE=4>A deadlock-free fully adaptive minimal routing algorithm for meshes that is optimal in the number of virtual channels required and in the number of restrictions placed on the use of these virtual channels is presented. It is also proved that, ignoring symmetry, this routing algorithm is the only fully adaptive routing algorithm with uniform routers that achieves both of these goals. This new algorithm requires only 4n-2 virtual channels for an n-dimensional mesh. In additional channels with the fewest possible number of restrictions. The proofs are first presented for the 2D mesh and then generalized to n-dimensional meshes.</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<OL>
+
+</FONT><B><FONT SIZE=5><P ALIGN="JUSTIFY"><LI>Introduction</LI></P>
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">Partially adaptive routing algorithms do not allow all message to use any shortest path.</P>
+</FONT><P ALIGN="JUSTIFY">Fully adaptive routing algorithms do allow all messages to use any shortest path.</P>
+<B><FONT SIZE=5><P ALIGN="JUSTIFY"><LI VALUE=2>Optimal Minimal Routing</LI></P></OL>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">The Optimal Fully Adaptive routing ,which has substantially fewer restrictions ,is proposed. Since there are cycles in the channel dependency graph, the turn model cannot be used to prove deadlock freedom.</P>
+<P ALIGN="JUSTIFY">A block diagram of the router with two virtual channels in the North and South directions is shown in Fig. 1a.</P>
+<P ALIGN="JUSTIFY">The Virtual channels in the North and South directions are differentiated by marking <B>VC1n</B> and <B>VC1s </B>with a single dash and <B>VC2n </B>and <B>VC2s</B> with double dash . </P>
+<P ALIGN="JUSTIFY">This configurations has sixteen 90</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4>°</FONT><FONT SIZE=4>turn and four 0</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4>°</FONT><FONT SIZE=4>turns.</P>
+<P ALIGN="JUSTIFY">Unrestricted turns are indicated by solid lines, restricted turns by dashed line, and prohibited turns by dotted lines.</P>
+<P ALIGN="JUSTIFY">The constrains imposed by the Optimal Fully Adaptive routing algorithm, referred to as opt-y, can be summarized succinctly: a message that needs to route further in the West direction cannot use <B>VC1n</B> or <B>VC1s.</P><IMG SRC="Image199.gif" WIDTH=555 HEIGHT=296 ALIGN="LEFT" HSPACE=12>
+</B></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="JUSTIFY">&nbsp;</P>
+</FONT><FONT SIZE=4><P ALIGN="CENTER">Fig. 1 Optimal fully adaptive routing.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY">&#9;</FONT><FONT SIZE=4>Opt-y has the following two sets of constraints(Figs. 1b and 1c):</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY">&#9;</P>
+
+<UL>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY"><LI>Two 90</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4>°</FONT><FONT SIZE=4>turns, N-W using VC1n and S-W using VC1s are prohibited.</LI></P>
+<P ALIGN="JUSTIFY"><LI>The 0</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4>°</FONT><FONT SIZE=4>turns form VC2n to VC1n and form VC2s to VC1s are allowed only when the message does not need to route further West.</LI></P>
+<P ALIGN="JUSTIFY"><LI>The 90</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4>°</FONT><FONT SIZE=4>turns W-S using VC1s and W-N using VC1n are allowed</FONT> <FONT SIZE=4>only when the message does not need to route further West. These turns are restricted only because the N-W turn from VC1n and S-W turn form VC1s are prohibited.</LI></P>
+<P ALIGN="JUSTIFY"><LI>The 0</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4>°</FONT><FONT SIZE=4>turns form VC1n to VC2n and form VC1s to VC2s are allowed only when the message does not need to route further West, because VC1n and VC1s are not used until the message has completed routing West.</LI></P>
+<P ALIGN="JUSTIFY"><LI>VC1n and VC1s cannot be used by the router at the source if the message needs to route West.</LI></P></UL>
+
+<P ALIGN="JUSTIFY">Opt-y is fully adaptive.</P>
+<P ALIGN="JUSTIFY">Opt-y is deadlock-free.</P>
+<P ALIGN="JUSTIFY">Opt-y requires only the minimum number of virtual channels.</P>
+<P ALIGN="JUSTIFY">Opt-y imposes only the minimum number of routing restrictions on there virtual channels.</P>
+<P ALIGN="JUSTIFY">Opt-y is the only algorithm to satisfy all of the previous properties.</P>
+<P ALIGN="JUSTIFY">Using Duato’s terminology , the routing algorithm is denoted R and the set R and the set of channels used by R is denoted C. There is some subset of channels, C1<FONT FACE="Symbol">&#205;</FONT>
+C, that define a routing algorithm R1<FONT FACE="Symbol">&#205;</FONT>
+R; i.e., R1 is the routing algorithm R restricted to using the set of channels C1.When there are cycles in the channel dependency graph, it is not possible to provide a numbering of the channels that guarantees the channels are used in always increasing or always decreasing order. Instead, Duato has shown that any routing algorithm of the form R:N</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4>×</FONT><FONT SIZE=4>N<FONT FACE="Symbol">&#174;</FONT>
+Cp is deadlock-free if it satisfies the following three conditions:</P>
+
+<UL>
+
+<UL>
+<P ALIGN="JUSTIFY"><LI>Routing algorithm R1 is connected.</LI></P>
+<P ALIGN="JUSTIFY"><LI>Routing algorithm R1 is acyclic and therefore deadlock-free.</LI></P>
+<P ALIGN="JUSTIFY"><LI>The additional channels (C-C1) of routing algorithm R do not introduce cycles in the extended channel dependency graph of C1.</LI></P></UL>
+</UL>
+
+<B><P ALIGN="JUSTIFY">Lemma 1. </B>Routing algorithm R1 is connected.</P>
+<B><P ALIGN="JUSTIFY">Lemma 2. </B>Routing algorithm R1 is acyclic and therefore deadlock-free.</P>
+<B><P ALIGN="JUSTIFY">Lemma 3. </B>The additional channels of routing algorithm R do not introduce cycles in the extended channel dependency graph of C1.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P><IMG SRC="Image200.gif" WIDTH=552 HEIGHT=429></P>
+<P>&nbsp;</P>
+</FONT><FONT SIZE=4><P ALIGN="CENTER">Fig. 2 Deadlock </P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P><IMG SRC="Image201.gif" WIDTH=553 HEIGHT=309></P>
+</FONT><FONT SIZE=4><P ALIGN="CENTER">Fig. 3 The deadlock of Fig2 deadlock-free with opt-y</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY">&#9;</FONT><FONT SIZE=4>The channels C1 is deadlock-free ,because it’s routing is acyclics.</P>
+<P ALIGN="JUSTIFY">&#9;The channels C2 is unrestricted turns. Cycles are permitted in channels C2. (as Fig. 2) .</P>
+<P ALIGN="JUSTIFY">&#9;The message M3 does not need to route further West by opt-y algorithm, so M3 can turns from channels C2 to channels C1. The message M3 can achieve D3. Then Deadlock-free in C2 by opt-y algorithm.</P>
+<B><P ALIGN="JUSTIFY">Theorem 3. </B>Deadlock-free fully adaptive wormhole routing on a 2D mesh requires a second virtual in two opposite directions, either North and South or East and West.</P>
+<B><P ALIGN="JUSTIFY">Lemma 4. </B>At least two 90</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4>°</FONT><FONT SIZE=4>turns must be prohibited to make the routing algorithm deadlock-free.</P>
+<B><P ALIGN="JUSTIFY">Theorem 4. </B>Ignoring symmetry, opt-y prohibits fewer 90</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4>°</FONT><FONT SIZE=4>turns than any other deadlock-free fully adaptive routing algorithm that uses only six virtual channels.</P>
+<B><P ALIGN="JUSTIFY">Theorem 5. </B>No routing algorithm using only six virtual channels per router can have fewer restrictions than those imposed by opt-y.</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">Created by: Jain-Ming Chen</P>
+<P ALIGN="JUSTIFY">Date:May.1 1997</P></FONT></BODY>
+</HTML>

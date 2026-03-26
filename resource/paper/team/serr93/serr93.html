@@ -1,0 +1,138 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Optimal Architectures and Algorithms for Mesh-Connected Parallel Computers with Separable Row/Column Buses</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<B><FONT SIZE=6><P ALIGN="CENTER">Optimal Architectures and Algorithms for Mesh-Connected Parallel Computers with Separable Row/Column Buses</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=6><P>&nbsp;</P>
+</B></FONT><FONT SIZE=4><P ALIGN="CENTER">Mauricio J. Serrano and Behrooz Parhami</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">IEEE Transactions on Parallel and Distributed Systems, Vol. 4, No. 10, pp. 1073-1080, Oct. 1993.</P>
+<P ALIGN="CENTER">&nbsp;</P>
+</FONT><B><I><FONT SIZE=5><P ALIGN="JUSTIFY">Abstract</B></I></FONT> </P>
+<FONT SIZE=4><P ALIGN="JUSTIFY">For meshes with separable row/column buses, they showed how semigroup and prefix computations can be performed with the same asymptotic time complexity O(<I>N</I><SUP>1/8</SUP>) without the provision of buses for every row and every column and discuss the VLSI implications of this new architecture. They found that square meshes are not optimal for the above algorithms and the time complexity can be reduced by using rectangular meshes.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY">&nbsp;</P>
+<OL>
+
+</FONT><B><FONT SIZE=5><P ALIGN="JUSTIFY"><LI>Introduction</LI></P></OL>
+
+</B></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY">&nbsp;</P><DIR>
+<DIR>
+
+<P ALIGN="CENTER"><IMG SRC="Image166.gif" WIDTH=575 HEIGHT=514></P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">Fig. 1. Different interconnections schemes for a mesh:(a)mesh with row and column broadcast buses, (b) hypermesh, (c) mesh with multiple global buses, and (d) mesh with separable row and column buses.</P>
+<P ALIGN="JUSTIFY">&nbsp;</P></DIR>
+</DIR>
+
+<OL START=2>
+
+</FONT><B><FONT SIZE=5><LI>The Proposed Scheme</LI></OL>
+
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><P>&nbsp;</P><DIR>
+<DIR>
+
+</B></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image167.gif" WIDTH=536 HEIGHT=403></P>
+<P ALIGN="CENTER">&nbsp;</P><DIR>
+
+</FONT><FONT SIZE=4><P>-An <I>N</I><SUP>5/8</FONT><B><FONT SIZE=5> </B></SUP></FONT><FONT SIZE=4>x <I>N</I><SUP>3/8</SUP> mesh composed of <I>N</I><SUP>1/8</SUP> x <I>N</I><SUP>1/8</SUP> PE(processor element) blocks.</P></DIR>
+
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P ALIGN="CENTER"><IMG SRC="Image168.gif" WIDTH=498 HEIGHT=518></P>
+</FONT><P>   </P>
+<P>&nbsp;</P>
+<FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><P><FONT FACE="Wingdings">&#168;</FONT>
+</FONT><FONT SIZE=5>Semigroup Computation Algorithm</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+
+
+<UL TYPE="SQUARE">
+
+<UL TYPE="SQUARE">
+</FONT><FONT SIZE=4><LI>A semigroup computation can be described by a pair of (</FONT><I><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image169.gif" WIDTH=17 HEIGHT=18></I></FONT><FONT SIZE=4>,<I>S</I>), where </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image169.gif" WIDTH=17 HEIGHT=18></FONT><FONT SIZE=4> is an associative binary operator and S is a set of data. The problem is to compute a<SUB>0</SUB></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image169.gif" WIDTH=17 HEIGHT=18></FONT><FONT SIZE=4>a<SUB>1</SUB></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image169.gif" WIDTH=17 HEIGHT=18></FONT><FONT SIZE=4>…</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image169.gif" WIDTH=17 HEIGHT=18></UL>
+</UL>
+</FONT><FONT SIZE=4>a<I><SUB>N</I>-1</SUB>.</LI>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P>&nbsp;</P><DIR>
+<DIR>
+
+</FONT><B><FONT SIZE=4><P>Step1 </B>( Block Reduction): Perform the semigroup computation for each blosk. O(<I>N</I><SUP>1/8</SUP>). The problem size from <I>N</I> to <I>N</I><SUP>3/4</SUP>.</P>
+<P>&nbsp;</P>
+<B><P>Step 2<I>a</B> (</I>Row-Group Reduction): O(<I>N</I><SUP>1/8</SUP>). The problem size becomes to N<SUP>5/8</SUP>.</P>
+<P>&nbsp;</P>
+<B><U><P>S</U>tep 2<I>b</B></I> (Row-Band Reduction): Copy the partial results from row-group leaders to row-band leaders and perform the semigroup computation. O(<I>N</I><SUP>1/8</SUP>). The problem size becomes to <I>N</I><SUP>1/2</SUP>.</P>
+<P>&nbsp;</P>
+<B><P>Step 3<I>a</I> </B>(Column-Group Reduction): <I>O</I>(<I>N</I><SUP>1/8</SUP>). The problem size becomes to <I>N</I><SUP>3/8</SUP>.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P>&nbsp;</P>
+</FONT><B><FONT SIZE=4><P>Step 3<I>b</B></I> (Replication of Values): Broadcast the partial result of each leftmost column leader to all PE’s connected to a row bus, constant time.</P>
+<P>&nbsp;</P>
+<B><P>Step 3<I>c</B></I> (Column-to-Row Transposition): Partition the N<SUP>3/8</SUP> partial results into <I>N</I><SUP>1/4</SUP> groups and each having <I>N</I><SUP>1/8</SUP> elements, so that each group can use a column. <I>O</I>(<I>N</I><SUP>1/8</SUP>). The problem size becomes to <I>N</I><SUP>1/4</SUP>.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P>&nbsp;</P>
+</FONT><B><FONT SIZE=4><P>Step 4<I>a/b</B> </I>(0th-Row Reduction): Apply 2<I>a</I> and 2<I>b</I>. <I>O</I>(<I>N</I><SUP>1/8</SUP>).</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><P><FONT FACE="Wingdings">&#168;</FONT>
+</FONT><FONT SIZE=5> Prefix Computation</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+
+
+<UL TYPE="SQUARE">
+
+<UL TYPE="SQUARE">
+</FONT><FONT SIZE=4><LI>Prefix computation defined as <I>S<SUB>i</SUB>=a<SUB>0</SUB></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image169.gif" WIDTH=17 HEIGHT=18></FONT><FONT SIZE=4>a<SUB>1</I></SUB></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image169.gif" WIDTH=17 HEIGHT=18></FONT><I><FONT SIZE=4>…</I></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image169.gif" WIDTH=17 HEIGHT=18></UL>
+</UL>
+</FONT><I><FONT SIZE=4>a<SUB>i</I></SUB>. The input data items are stored in the mesh in increasing order of block numbers and in increasing order(row-major) of PE number numbers. </LI>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P>&nbsp;</P><DIR>
+<DIR>
+
+</FONT><B><FONT SIZE=4><P>Step1 : </B>Local Prefixes for each Block. </P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P>&nbsp;</P>
+</FONT><B><FONT SIZE=4><P>Step 2 </B>(Row Reduction): Generate row-group prefixes by broadcasting data using row bus sections. The rightmost column contains the row-band prefixes.  </P>
+<P>&nbsp;</P>
+<B><P>Step 3 </B>(Column Reduction): Generate the column group prefixes by broadcasting data on column bus sections (the rightmost column bus). Broadcast the resulting <I>N</I><SUP>3/8</SUP> prefixes within rows and do column-to-row transposition.</P>
+<P>&nbsp;</P>
+<B><P>Step 4</B> (0th-Row Reduction): Do a prefix computation for the items in Row 0.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><P>&nbsp;</P>
+</FONT><B><FONT SIZE=4><P>Step 5-8</B> (Backward Phase): These constitute Phase 2 of the algorithm. Go from global to local. Steps 1 through 4 are performed backwards to obtain the prefix in each PE.</P>
+<P>&nbsp;</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P><FONT FACE="Wingdings">&#110;</FONT>
+</FONT><FONT SIZE=4> Since any step in this algorithm takes <I>O(N</I><SUP>1/8</SUP>), the overall time complexity is <I>O(N</I><SUP>1/8</SUP>).</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+
+<OL START=3>
+
+</FONT><B><FONT SIZE=5><LI>Extension to an Arbitrary Size Mesh for Semigroup Computation</LI></OL>
+
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P>&nbsp;</P><DIR>
+<DIR>
+
+</B></FONT><FONT SIZE=4><P>Definition:  </P>
+<I><P>N<SUP>r</I></SUP> x <I>N<SUP>c</SUP> </I>  Rectangular mesh with <I>N<SUP>r</I></SUP> rows and <I>N<SUP>c</I> </SUP>columns(<I>r+c</I>=1,<I>r</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image170.gif" WIDTH=13 HEIGHT=16></FONT><FONT SIZE=4>c</I>).</P>
+<I><P>N<SUP>k</SUP> </I>x <I>N<SUP>k</SUP> </I>  Size of a block of PEs connected only by local links(<I>k</I>&lt;1/2).</P>
+<I><P>R  </I>      Number of hierarchical sectioning levels for row buses.</P>
+<I><P>C</I>        Number of hierarchical sectioning levels for column buses.</P>
+</FONT><B><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><P>&nbsp;</P>
+</B></FONT><FONT SIZE=4><P>the optimal time complexity is <I>O</I>(<I>N<SUP>1/(2R+C+2)</I></SUP>). </P>
+<P>the optimal mesh has<I> N<SUP>r</SUP>=N</I><SUP>(<I>R+C</I>+1)/(2<I>R+C</I>+2)</SUP> x <I>N</I><SUP>(<I>R</I>+1)/(2<I>R+C</I>+2)</SUP>.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P><FONT FACE="Wingdings">&#110;</FONT>
+</FONT><FONT SIZE=4> They concluded that the optimal mesh is always retangular because <I>R+C</I>+1</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image171.gif" WIDTH=14 HEIGHT=16></FONT><I><FONT SIZE=4>R</I>+1. And they check <I>R=C=</I>2 as their previous algorithm. </P>
+<P>&nbsp;</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P><FONT FACE="Wingdings">&#110;</FONT>
+</FONT><FONT SIZE=4> For<I> R=C=L</I>, <I>O(N<SUP>2L/(3L+2)</SUP>)</I>. Compare the result with reported by Carlson using a hierachy of <I> L</I> global buses connecting all PE’s, achieving a running time of O(<I>N</I><SUP>(1/L+2)</SUP>).</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>[Created by: Lee-Chuan Fan</P></DIR>
+</DIR>
+
+<P> Date: Apr. 23, 1997]</P>
+</FONT><B><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><P>&nbsp;</P></B></FONT></BODY>
+</HTML>
