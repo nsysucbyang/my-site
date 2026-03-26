@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Shift-invariant interpattern association neural network</TITLE>
+<META NAME="Template" CONTENT="C:\MSOffice\Template\WWW.dot">
+</HEAD>
+<BODY>
+
+<B><FONT SIZE=6><P ALIGN="CENTER">Shift-invariant interpattern association neural network</P>
+</B></FONT><FONT SIZE=4><P ALIGN="CENTER">Chii-Maw Uang, Shizhuo Yin, P. Andres, Wade Reeser, </P>
+<P ALIGN="CENTER">and Francis T. S. Yu</P>
+<P ALIGN="CENTER">Applied Optics Vol. 33, No. 11, pp. 2147-2151, April 1994</P>
+</FONT><B><FONT SIZE=5><P>Abstract</P>
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">A shift-invariant neural network that uses the translation-invariant property of the modulus Fourier spectra with the heteroassociation interpattern association memory is proposed. A binary encoding of a spectral sampling of the training set is used to preserve the main features. Computer simulations and experimental demonstrations are provided that show the shift-invariant property of the proposed optical network.</P>
+<OL>
+
+</FONT><B><FONT SIZE=5><LI>Theory</LI></OL>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">An object function <I>f</I>(<I>x, y</I>) for which the Fourier transform is given by F(<I>p, q</I>) = FT{<I>f</I>(<I>x, y</I>)}, where (<I>p, q</I>) are the angular spatial frequency coordinates. The corresponding power-density function is </P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image172.gif" WIDTH=229 HEIGHT=28></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">The object function is shifted by </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image173.gif" WIDTH=53 HEIGHT=24></FONT><FONT SIZE=4>, then the Fourier transform of the shifted object function is FT{<I>f</I>(<I>x</I>-</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image174.gif" WIDTH=20 HEIGHT=21></FONT><FONT SIZE=4>, <I>y</I>-</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image175.gif" WIDTH=20 HEIGHT=21></FONT><FONT SIZE=4>) = F(<I>p</I>, <I>q</I>)exp[ -<I>i </I>(<I>p</I></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image174.gif" WIDTH=20 HEIGHT=21></FONT><FONT SIZE=4> + <I>p</I></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image175.gif" WIDTH=20 HEIGHT=21></FONT><FONT SIZE=4>)]. The corresponding power-density function remains unchanged :</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY"><IMG SRC="Image176.gif" WIDTH=481 HEIGHT=30></P>
+<P ALIGN="JUSTIFY"><IMG SRC="Image177.gif" WIDTH=216 HEIGHT=33></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">This is the shift-invariant property of the modulus of the Fourier transform.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image178.gif" WIDTH=377 HEIGHT=180></P>
+</FONT><FONT SIZE=4><P ALIGN="CENTER">Fig. 1 Shift-invariant property of the power spectral distribution.</P>
+<OL START=2>
+
+</FONT><B><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><LI></LI>
+</FONT><FONT SIZE=5><LI>Encoding of the power spectrum</LI></OL>
+
+</B></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="CENTER"><IMG SRC="Image179.gif" WIDTH=410 HEIGHT=432></P>
+</FONT><FONT SIZE=4><P ALIGN="CENTER">Fig. 2. Two types of shift-invariant systems.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER">&nbsp;</P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">In the first method we can select a threshold level for the binarization of the set of power spectral functions. Since the power-density spectrum is a symmetric function, the encoding process can be taken only over the half spectral domain without loss of discrimination. Since the zero-order spectral density would not provide any useful information for the recognition process, it can be removed in the encoding process.</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image180.gif" WIDTH=303 HEIGHT=203></P>
+</FONT><FONT SIZE=4><P ALIGN="CENTER">Fig. 3. Conventional binarization sampling process.</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="JUSTIFY">The second method is called feature sampling, which is essentially a modified sampling technique.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="CENTER"><IMG SRC="Image181.gif" WIDTH=445 HEIGHT=286></P>
+</FONT><FONT SIZE=4><P ALIGN="CENTER">Fig. 4. Feature-sampling binarization process.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY">&nbsp;</P>
+<OL START=3>
+
+</FONT><B><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><LI></LI>
+</FONT><FONT SIZE=5><LI>Heteroassociation interpattern association memory</LI></OL>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">Let the EPSD(encoded power spectral density) input and output neuron pattern arrays be </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image182.gif" WIDTH=69 HEIGHT=28></FONT><FONT SIZE=4> and </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image183.gif" WIDTH=73 HEIGHT=28></FONT><FONT SIZE=4>. The heteroassociative IPA interconnection weight matrix be </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image184.gif" WIDTH=62 HEIGHT=28></FONT><FONT SIZE=4>.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image185.gif" WIDTH=213 HEIGHT=41></FONT><FONT SIZE=4> </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image186.gif" WIDTH=214 HEIGHT=41></P>
+<P ALIGN="CENTER"><IMG SRC="Image187.gif" WIDTH=252 HEIGHT=41></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">A heteroassociation IWM can be constructed as following :</P>
+<OL>
+
+<P ALIGN="JUSTIFY"><LI>If </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image188.gif" WIDTH=56 HEIGHT=28></FONT><FONT SIZE=4>, then </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image189.gif" WIDTH=49 HEIGHT=28></FONT><FONT SIZE=4>;</LI></P>
+<P ALIGN="JUSTIFY"><LI>If </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image190.gif" WIDTH=50 HEIGHT=28></FONT><FONT SIZE=4>, </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image191.gif" WIDTH=48 HEIGHT=25></FONT><FONT SIZE=4>, and </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image192.gif" WIDTH=48 HEIGHT=25></FONT><FONT SIZE=4>, then </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image193.gif" WIDTH=61 HEIGHT=28></FONT><FONT SIZE=4>;</LI></P>
+<P ALIGN="JUSTIFY"><LI>Otherwise, </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image194.gif" WIDTH=50 HEIGHT=28></OL>
+</FONT><FONT SIZE=4>.</LI></P>
+<P ALIGN="JUSTIFY">The output neuron is represented by the well-known retrieval equation :</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image195.gif" WIDTH=292 HEIGHT=49></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">where </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image196.gif" WIDTH=24 HEIGHT=28></FONT><FONT SIZE=4> represents the state of the <I>j</I>th input neuron, sgn(<I>x</I>) represents a threshold function, and </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image197.gif" WIDTH=28 HEIGHT=25></FONT><FONT SIZE=4>represents the state of the <I>i</I>th output neuron after the retrieval process.</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<OL START=4>
+
+</FONT><B><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=5><LI></LI>
+</FONT><FONT SIZE=5><LI>Computer simulation</LI></OL>
+
+</B></FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image198.gif" WIDTH=552 HEIGHT=641></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">Fig. 5. Computer-simulation demonstration: (a) eight training exemplars; (b) their corresponding encoded binarized power spectral distributions; (c) test patterns; (d) their corresponding recalled results.</P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P>Created by &#9;: Lin-hung Shen</P>
+<P>Date&#9;&#9;: May 1 1997&#9;</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW"><P>&nbsp;</P></FONT></BODY>
+</HTML>

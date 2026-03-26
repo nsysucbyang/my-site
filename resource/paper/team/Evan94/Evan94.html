@@ -1,0 +1,43 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>The QZ Algorithm for the Calculation of the Eigenvalues of a Real Matrix</TITLE>
+<META NAME="Template" CONTENT="C:\MSOffice\Template\WWW.dot">
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<B><FONT SIZE=6><P ALIGN="CENTER">The</FONT><FONT SIZE=5> </FONT><I><FONT SIZE=6>QZ</I></FONT><FONT SIZE=5> </FONT><FONT SIZE=6>Algorithm for the Calculation of the Eigenvalues of a Real Matrix</P>
+</B></FONT><FONT SIZE=4><P ALIGN="CENTER">D. J. Evans and W. S. Yousif</P>
+<P ALIGN="CENTER">Parallel Algorithms and Applications, Vol. 4, pp. 183-192, 1994</P>
+</FONT><B><FONT SIZE=5><P>Abstract</P>
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">In this paper we present a new algorithm for calculating the eigenvalues of a real matrix. The algorithm is based on the orthogonal decomposition of a square dense matrix by the <I>QZ</I> method proposed in the paper “The <I>QZ</I> orthogonal decomposition method” . A comparison with the <I>QR</I> algorithm confirm the new algorithm to be computationally superior.</P>
+<OL>
+
+</FONT><B><FONT SIZE=5><LI>Introduction</LI></OL>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">A new orthogonal factorization for a square dense matrix was proposed . It decomposes a matrix <I>A</I> into factors of the form</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image13.gif" WIDTH=61 HEIGHT=22></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">where <I>Q</I> is an orthogonal matrix and <I>Z</I> has the following matrix representation</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image14.gif" WIDTH=376 HEIGHT=197></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">The new factorization is analogous to the Givens <I>QR</I> algorithm .</P>
+<OL START=2>
+
+</FONT><B><FONT SIZE=5><LI>The <I>QR</I> Algorithm</LI></OL>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">The <I>QR</I> algorithm starts with </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image15.gif" WIDTH=53 HEIGHT=22></FONT><FONT SIZE=4> and generate a sequence of matrices </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image16.gif" WIDTH=24 HEIGHT=21></FONT><FONT SIZE=4> by the following relations</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image17.gif" WIDTH=108 HEIGHT=57></FONT><FONT SIZE=4>      </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image18.gif" WIDTH=69 HEIGHT=21></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">where </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image19.gif" WIDTH=25 HEIGHT=24></FONT><FONT SIZE=4> is unitary matrix and </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image20.gif" WIDTH=22 HEIGHT=21></FONT><FONT SIZE=4> is upper triangular matrix with positive entries on the main diagonal. Such decomposition always exists and can be found using plane rotation matrices. It can be easily verified that</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image21.gif" WIDTH=116 HEIGHT=28></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">Thus the sequence of matrices</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image22.gif" WIDTH=22 HEIGHT=21></FONT><FONT SIZE=4> are unitarily similar to each other and therefore have the same eigenvalues.</P>
+<OL START=3>
+
+</FONT><B><FONT SIZE=5><LI>The <I>QZ</I> Method</LI></OL>
+
+</B></FONT><FONT SIZE=4><P ALIGN="JUSTIFY">The transformation matrices used for the decomposition of the </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image23.gif" WIDTH=52 HEIGHT=18></FONT><FONT SIZE=4> matrix <I>A=QZ</I> was based on the following orthogonal matrices</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="JUSTIFY"><IMG SRC="Image24.gif" WIDTH=690 HEIGHT=244><IMG SRC="Image25.gif" WIDTH=668 HEIGHT=420></FONT><FONT SIZE=4>All the matrices </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image26.gif" WIDTH=30 HEIGHT=22></FONT><FONT SIZE=4> are orthogonal, their product is also an orthogonal matrix<I> Q</I>. By implementing the <I>QZ</I> method, the entries on the first and the last columns of the </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image27.gif" WIDTH=41 HEIGHT=16></FONT><FONT SIZE=4> matrix </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image28.gif" WIDTH=72 HEIGHT=24></FONT><FONT SIZE=4> are eliminated simultaneously by forming the matrices </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image29.gif" WIDTH=136 HEIGHT=24></FONT><FONT SIZE=4>. After this step we have </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image30.gif" WIDTH=208 HEIGHT=24></P>
+</FONT><FONT SIZE=4><P ALIGN="JUSTIFY">The </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image31.gif" WIDTH=29 HEIGHT=22></FONT><FONT SIZE=4> algorithm can be define as the following general equations</P>
+</FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><P ALIGN="CENTER"><IMG SRC="Image32.gif" WIDTH=100 HEIGHT=56></FONT><FONT SIZE=4>      </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image33.gif" WIDTH=69 HEIGHT=22></FONT><FONT SIZE=4> .</P>
+<P ALIGN="JUSTIFY">The repetition of the transformation yields a sequence of matrices </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image34.gif" WIDTH=22 HEIGHT=21></FONT><FONT SIZE=4> similar to </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image35.gif" WIDTH=21 HEIGHT=21></FONT><FONT SIZE=4> and possessing identical eigenvalues. The sequence </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4><IMG SRC="Image34.gif" WIDTH=22 HEIGHT=21></FONT><FONT SIZE=4> converges to a matrix of the form <I>Z</I> .</P>
+<P>Hence, the eigenvalues of this Z-type matrix can be calculated in parallel as they are the eigenvalues of the </FONT><FONT FACE="&#26032;&#32048;&#26126;&#39636;" LANG="ZH-TW" SIZE=4></P></FONT></BODY>
+</HTML>
